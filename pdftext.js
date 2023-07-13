@@ -1,8 +1,6 @@
 const axios = require("axios");
 const PDFParser = require("pdf-parse");
-const openai_API = require("openai");
-const Configuration = openai_API.Configuration;
-const OpenAIApi = openai_API.OpenAIApi;
+const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
@@ -61,3 +59,20 @@ fetchAndExtractText()
   .catch((error) => {
     console.error("Error:", error);
   });
+
+async function createCompletion() {
+  try {
+    const response = await openai.createCompletion({
+      model: "text-davinci-003",
+      prompt: "Say this is a test",
+      max_tokens: 7,
+      temperature: 0,
+    });
+    console.log(response.data.choices[0].text);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+
+// Call the function
+createCompletion();

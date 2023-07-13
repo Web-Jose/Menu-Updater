@@ -1,7 +1,7 @@
 Auto-Updating the Menu (Weekly)
 
 Breakdown
-	• Getting the week's menu pdf link
+	✓ Getting the week's menu pdf link [DONE]
 		○ Example of the link
 			- https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2023-07-02.pdf
 		○ menu-(YYYY)-(MM)-(DD).pdf (template of links ending)
@@ -19,14 +19,14 @@ Breakdown
 					Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value.
 					Complete for every day of the week
 	  			*/
-		○  Using Node.JS packages 'axios' and 'pdf-parse' [SPACING ISSUES; NEEDS TO BE AUTOMATED; PDF TO TEXT DATA; NEEDS TO BE CONVERTED TO JSON]
+		✓ Using Node.JS packages 'axios' and 'pdf-parse' [PDF TO TEXT DATA; NEEDS TO BE CONVERTED TO JSON; DONE] 
 			- Using the previously defined link for the current weeks menu and inputting it into the code
 				/*
 					//Packages checked
 					const axios = require("axios");
 					const pdf = require("pdf-parse");
 
-					//Creates function to read and return data of pdf from url [NEEDS TO BE MODIFIED TO ADD SPACES	EXAMPLE: EntréeScrambled EggsScrambled]
+					//Creates function to read and return data of pdf from url
 					async function readPDF(url) {
 						const response = await axios.get(url, {
 							responseType: "arraybuffer",
@@ -68,43 +68,3 @@ Resources
 	• https://github.com/Web-Jose/Housing-Changes/blob/main/Menu-Update.json
 	• https://openai.com/pricing
 	• https://platform.openai.com/tokenizer
-
-	function getPastSundayDate() {
-  const today = new Date();
-  const dayOfWeek = today.getDay();
-  const daysSinceSunday = (dayOfWeek === 0 ? 7 : dayOfWeek) - 1;
-  const pastSunday = new Date(today.getFullYear(), today.getMonth(), today.getDate() - daysSinceSunday);
-  return pastSunday;
-}
-
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
-
-function generateLink() {
-  const pastSunday = getPastSundayDate();
-  const formattedDate = formatDate(pastSunday);
-  const link = `https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-${formattedDate}.pdf`;
-  return link;
-}
-
-function fetchAndReadPDF() {
-  const link = generateLink();
-
-  // Fetch the PDF file
-  fetch(link)
-    .then(response => response.text())
-    .then(text => {
-      // Replace all whitespace characters with proper spaces
-      const formattedText = text.replace(/\s+/g, ' ');
-      console.log(formattedText);
-    })
-    .catch(error => {
-      console.error('Error:', error);
-    });
-}
-
-fetchAndReadPDF();
