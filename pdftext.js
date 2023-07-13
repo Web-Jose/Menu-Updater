@@ -27,7 +27,12 @@ function getPastSundayDate() {
 function generateLink() {
   const pastSunday = getPastSundayDate();
   const formattedDate = formatDate(pastSunday);
-  const link = `https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-${formattedDate}.pdf`;
+  console.log(formattedDate);
+  const link =
+    "https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-" +
+    formattedDate +
+    ".pdf";
+  console.log(link);
   return link;
 }
 
@@ -52,6 +57,7 @@ async function fetchAndExtractText() {
 }
 
 // Example usage
+/*
 fetchAndExtractText()
   .then((text) => {
     console.log(text);
@@ -59,14 +65,17 @@ fetchAndExtractText()
   .catch((error) => {
     console.error("Error:", error);
   });
+*/
 
 async function createCompletion() {
   try {
     const response = await openai.createCompletion({
-      model: "text-davinci-003",
-      prompt: "Say this is a test",
-      max_tokens: 7,
-      temperature: 0,
+      model: "gpt-4",
+      prompt:
+        fetchAndExtractText() +
+        "\n\nConvert the table to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.\n\n",
+      max_tokens: 4000,
+      temperature: 0.2,
     });
     console.log(response.data.choices[0].text);
   } catch (error) {
