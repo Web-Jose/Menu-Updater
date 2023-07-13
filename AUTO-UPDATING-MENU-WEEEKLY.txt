@@ -1,0 +1,110 @@
+Auto-Updating the Menu (Weekly)
+
+Breakdown
+	• Getting the week's menu pdf link
+		○ Example of the link
+			- https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2023-07-02.pdf
+		○ menu-(YYYY)-(MM)-(DD).pdf (template of links ending)
+			- Using a function to get the date
+			- Using the links template and variables to create the current weeks menu link
+	• Converting PDF to Json; Can be done:
+		○ Using ChatGPT plugin (Link Reader) [WORKS GREAT BUT MANUALLY DONE; DIRECTLY CHANGES THE PDF TO TEXT THAT RESEMBLES JSON TO BE COPIED]
+			- Example of input
+				/*
+					https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2023-07-02.pdf
+					Convert the table to JSON
+					The structure of the JSON will be as follows:
+					Each day of the week will be a key (word form).
+					Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key.
+					Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value.
+					Complete for every day of the week
+	  			*/
+		○  Using Node.JS packages 'axios' and 'pdf-parse' [SPACING ISSUES; NEEDS TO BE AUTOMATED; PDF TO TEXT DATA; NEEDS TO BE CONVERTED TO JSON]
+			- Using the previously defined link for the current weeks menu and inputting it into the code
+				/*
+					//Packages checked
+					const axios = require("axios");
+					const pdf = require("pdf-parse");
+
+					//Creates function to read and return data of pdf from url [NEEDS TO BE MODIFIED TO ADD SPACES	EXAMPLE: EntréeScrambled EggsScrambled]
+					async function readPDF(url) {
+						const response = await axios.get(url, {
+							responseType: "arraybuffer",
+						});
+						const data = new Uint8Array(response.data);
+
+						return pdf(data).then(function (data) {
+							return data.text;
+						});
+					}
+
+					//Needs to use a function to define the current weeks menu link
+					const url =
+						"https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2023-07-02.pdf";
+
+					// Calls Function and outputs the data or error
+					readPDF(url)
+						.then((text) => console.log(text))
+						.catch((err) => console.error(err));
+				*/
+		○ Using ChatGPT API to convert the data text to JSON [COST MONEY TO USE API; NEEDS TO BE AUTOMATED; NEEDS TO BE CREATED; TEXT TO JSON DATA]
+			- Use the returned text from readPDF(url) and input it into the API [HASN'T BEEN CREATED YET]
+			- Would take that information and convert it to JSON data
+			- Would then take that JSON data and input it into the database (github)
+			- Commit changes to the database (github)
+	• Using the Github JSON link and a cron job (WP CRONTROL) to run a function using PHP (funtions.php theme files) that updates the Dining Menu Pods on a schedule [NEEDS TO BE CREATED; JSON TO PODS]
+			- PHP will be written in the functions.php file of the theme files of the housing website
+			- The PHP function will be run on a schedule using a cron job (every week on Sunday at 4:00 AM)
+			- The PHP function will take the JSON data from the Github link and input it into the Dining Menu Pods
+			- The PHP function will save the changes to the Dining Menu Pods
+	• Automating and ensuring everything will run on a set schedule
+
+Resources
+	• https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2023-07-02.pdf
+	• https://www.npmjs.com/package/pdf-parse
+	• https://www.npmjs.com/package/axios
+	• https://platform.openai.com/docs/guides/gpt
+	• https://platform.openai.com/docs/quickstart/build-your-application
+	• https://github.com/Web-Jose/Housing-Changes/blob/main/Menu-Update.json
+	• https://openai.com/pricing
+	• https://platform.openai.com/tokenizer
+
+	function getPastSundayDate() {
+  const today = new Date();
+  const dayOfWeek = today.getDay();
+  const daysSinceSunday = (dayOfWeek === 0 ? 7 : dayOfWeek) - 1;
+  const pastSunday = new Date(today.getFullYear(), today.getMonth(), today.getDate() - daysSinceSunday);
+  return pastSunday;
+}
+
+function formatDate(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function generateLink() {
+  const pastSunday = getPastSundayDate();
+  const formattedDate = formatDate(pastSunday);
+  const link = `https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-${formattedDate}.pdf`;
+  return link;
+}
+
+function fetchAndReadPDF() {
+  const link = generateLink();
+
+  // Fetch the PDF file
+  fetch(link)
+    .then(response => response.text())
+    .then(text => {
+      // Replace all whitespace characters with proper spaces
+      const formattedText = text.replace(/\s+/g, ' ');
+      console.log(formattedText);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+}
+
+fetchAndReadPDF();
