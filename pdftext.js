@@ -1,6 +1,8 @@
 const axios = require("axios");
 const PDFParser = require("pdf-parse");
-import { Configuration, OpenAIApi } from "openai";
+const openai_API = require("openai");
+const Configuration = openai_API.Configuration;
+const OpenAIApi = openai_API.OpenAIApi;
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
