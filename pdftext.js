@@ -27,12 +27,10 @@ function getPastSundayDate() {
 function generateLink() {
   const pastSunday = getPastSundayDate();
   const formattedDate = formatDate(pastSunday);
-  console.log(formattedDate);
   const link =
     "https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-" +
     formattedDate +
     ".pdf";
-  console.log(link);
   return link;
 }
 
@@ -66,22 +64,37 @@ fetchAndExtractText()
     console.error("Error:", error);
   });
 */
+async function GeneratePrompt() {
+  const PDFtext = await fetchAndExtractText();
+  const prompt = PDFtext; /* +
+    "\n\nConvert the table provided to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.\n\n"*/
+  return prompt;
+}
 
-async function createCompletion() {
+async function createChatCompletion() {
   try {
-    const response = await openai.createCompletion({
-      model: "gpt-4",
-      prompt:
-        fetchAndExtractText() +
-        "\n\nConvert the table to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.\n\n",
-      max_tokens: 4000,
+    const prompt = await GeneratePrompt(); // Wait for the prompt text to be generated
+    const completion = await openai.createChatCompletion({
+      model: "gpt-3.5-turbo",
+      messages: [
+        {
+          role: "system",
+          content:
+            "Convert the table provided to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.",
+        },
+        {
+          role: "user",
+          content: prompt,
+        },
+      ],
       temperature: 0.2,
+      max_tokens: 4000,
     });
-    console.log(response.data.choices[0].text);
+    console.log(completion.data.choices[0].message);
   } catch (error) {
     console.error("Error:", error);
   }
 }
 
 // Call the function
-createCompletion();
+createChatCompletion();
