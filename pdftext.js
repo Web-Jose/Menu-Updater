@@ -1,11 +1,12 @@
 const axios = require("axios");
 const PDFParser = require("pdf-parse");
+/*
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
-
+*/
 // Function to format the date as YYYY-MM-DD
 function formatDate(date) {
   const year = date.getFullYear();
@@ -55,7 +56,6 @@ async function fetchAndExtractText() {
 }
 
 // Example usage
-/*
 fetchAndExtractText()
   .then((text) => {
     console.log(text);
@@ -63,11 +63,11 @@ fetchAndExtractText()
   .catch((error) => {
     console.error("Error:", error);
   });
-*/
+/*
 async function GeneratePrompt() {
   const PDFtext = await fetchAndExtractText();
   const prompt = PDFtext; /* +
-    "\n\nConvert the table provided to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.\n\n"*/
+    "\n\nConvert the table provided to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.\n\n"/
   return prompt;
 }
 
@@ -98,3 +98,4 @@ async function createChatCompletion() {
 
 // Call the function
 createChatCompletion();
+*/

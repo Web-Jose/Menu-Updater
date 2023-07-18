@@ -1,0 +1,170 @@
+{
+  "Sunday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Hash Browns" },
+      { "Side": "Belgian Waffles" },
+      { "Protein": "Sliced Maple Sausage" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Chicken Piccata" },
+      { "Entrée 2": "Beef Chimichangas" },
+      { "Vegan Entrée": "Tofu Piccata with Capers" },
+      { "Vegetable": "Fire Roasted Vegetables" },
+      { "Side": "Cilantro Lime Rice" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "Broccoli Beef" },
+      { "Entrée 2": "Crispy Korean Chicken" },
+      { "Vegan Entrée": "Kung Pao Tofu" },
+      { "Vegetable": "Vegetable Medley" },
+      { "Side": "Vegetable Chow Mein" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Specialty Dessert" }
+    ]
+  },
+  "Monday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Country Diced Potatoes" },
+      { "Side": "Biscuits and Gravy" },
+      { "Protein": "Sliced Kielbasa" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Mushroom Chicken Stir-Fry" },
+      { "Entrée 2": "Spicy Chicken Sandwich" },
+      { "Vegan Entrée": "Sundried Tomato and Spinach Pasta Bake" },
+      { "Vegetable": "Mixed Vegetables" },
+      { "Side": "Brown Fried Rice" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "Roasted Herbed Pork Chops" },
+      { "Entrée 2": "Garlic and Parmesan Wings" },
+      { "Vegan Entrée": "Vegan Dirty Rice Stuffed Bell Peppers" },
+      { "Vegetable": "Italian Blend" },
+      { "Side": "Buttered Baby Bakers" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Chef's Choice" }
+    ]
+  },
+  "Tuesday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Potato Circles" },
+      { "Side": "Cinnamon French Toast" },
+      { "Protein": "Thick Cut Bacon" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Chicken Alfredo with Broccoli" },
+      { "Entrée 2": "Beef Hot Dog" },
+      { "Vegan Entrée": "Eggplant and Tofu Stir-Fry" },
+      { "Vegetable": "Steamed Broccoli" },
+      { "Side": "Potato Chips" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "Miso Honey Glazed Salmon" },
+      { "Entrée 2": "Santa Maria Tri-Tip" },
+      { "Vegan Entrée": "Garlic and Orzo Stuffed Tomatoes" },
+      { "Vegetable": "Roasted Carrots" },
+      { "Side": "Rice Pilaf" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Chef's Choice" }
+    ]
+  },
+  "Wednesday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Crispy Potatoes" },
+      { "Side": "Buttermilk Pancakes" },
+      { "Protein": "Sausage Patties" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Orange Chicken" },
+      { "Entrée 2": "Corndogs" },
+      { "Vegan Entrée": "Grilled Mushroom Steak with Balsamic Glaze" },
+      { "Vegetable": "Japanese Blend" },
+      { "Side": "Steamed Jasmine Rice" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "Shredded Beef Barbacoa" },
+      { "Entrée 2": "Chicken Carnitas with Flour Tortilla" },
+      { "Vegan Entrée": "Tofu Burnt Ends" },
+      { "Vegetable": "Mixed Vegetables" },
+      { "Side": "Arroz Blanco with Garlic" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Chef's Choice" }
+    ]
+  },
+  "Thursday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Potato Triangles" },
+      { "Side": "Egg and Sausage Tornado" },
+      { "Protein": "Breakfast Sausage Link" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Baked Rigatoni Pasta" },
+      { "Entrée 2": "Crispy Chicken Nuggets" },
+      { "Vegan Entrée": "Penne with Spinach Pesto Sauce" },
+      { "Vegetable": "Green Beans" },
+      { "Side": "French Fries" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "BBQ Kansas Style Pork Ribs" },
+      { "Entrée 2": "Country Fried Chicken" },
+      { "Vegan Entrée": "Roasted Butternut Squash and Chickpeas" },
+      { "Vegetable": "Buttered Corn" },
+      { "Side": "Fully Loaded Mashed Potatoes" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Chef's Choice" }
+    ]
+  },
+  "Friday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Tater Tots" },
+      { "Side": "French Toast Sticks" },
+      { "Protein": "Sliced Ham" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Chicken Fajitas and Flour Tortillas" },
+      { "Entrée 2": "Philly Cheese Steak Sandwich" },
+      { "Vegan Entrée": "Crispy Salt and Pepper Tofu" },
+      { "Vegetable": "Black Bean and Corn Fiesta" },
+      { "Side": "Garlic Pinto Beans" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "Beef Lasagna" },
+      { "Entrée 2": "Cheese Manicotti with Basil Marinara" },
+      { "Vegan Entrée": "Beyond Sausage and Kale Pasta" },
+      { "Vegetable": "Roasted Broccoli and Cauliflower" },
+      { "Side": "Whole Grain Cheese Breadstick" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Chef's Choice" }
+    ]
+  },
+  "Saturday": {
+    "Breakfast": [
+      { "Entrée": "Scrambled Eggs" },
+      { "Side": "Hash Brown Patties" },
+      { "Side": "English Muffin Sandwich with Sausage Patty and Cheese" },
+      { "Protein": "Thick Cut Bacon" }
+    ],
+    "Lunch": [
+      { "Entrée 1": "Chicken Parmesan" },
+      { "Entrée 2": "Bean and Cheese Burritos" },
+      { "Vegan Entrée": "Tofu Cacciatore" },
+      { "Vegetable": "Bulldog Blend" },
+      { "Side": "Buttered Noodles" }
+    ],
+    "Dinner": [
+      { "Entrée 1": "Spicy Jerk Chicken" },
+      { "Entrée 2": "Blackened Shrimp" },
+      { "Vegan Entrée": "Roasted Butternut Squash and Chickpeas" },
+      { "Vegetable": "Squash Medley with Red Bell Peppers" },
+      { "Side": "Jollof Rice" },
+      { "Bread": "Chef's Choice" },
+      { "Dessert": "Chef's Choice" }
+    ]
+  }
+}
