@@ -2,8 +2,8 @@
   "Sunday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Hash Browns" },
-      { "Side": "Belgian Waffles" },
+      { "Side 1": "Hash Browns" },
+      { "Side 2": "Belgian Waffles" },
       { "Protein": "Sliced Maple Sausage" }
     ],
     "Lunch": [
@@ -26,8 +26,8 @@
   "Monday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Country Diced Potatoes" },
-      { "Side": "Biscuits and Gravy" },
+      { "Side 1": "Country Diced Potatoes" },
+      { "Side 2": "Biscuits and Gravy" },
       { "Protein": "Sliced Kielbasa" }
     ],
     "Lunch": [
@@ -50,8 +50,8 @@
   "Tuesday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Potato Circles" },
-      { "Side": "Cinnamon French Toast" },
+      { "Side 1": "Potato Circles" },
+      { "Side 2": "Cinnamon French Toast" },
       { "Protein": "Thick Cut Bacon" }
     ],
     "Lunch": [
@@ -74,8 +74,8 @@
   "Wednesday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Crispy Potatoes" },
-      { "Side": "Buttermilk Pancakes" },
+      { "Side 1": "Crispy Potatoes" },
+      { "Side 2": "Buttermilk Pancakes" },
       { "Protein": "Sausage Patties" }
     ],
     "Lunch": [
@@ -98,8 +98,8 @@
   "Thursday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Potato Triangles" },
-      { "Side": "Egg and Sausage Tornado" },
+      { "Side 1": "Potato Triangles" },
+      { "Side 2": "Egg and Sausage Tornado" },
       { "Protein": "Breakfast Sausage Link" }
     ],
     "Lunch": [
@@ -122,8 +122,8 @@
   "Friday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Tater Tots" },
-      { "Side": "French Toast Sticks" },
+      { "Side 1": "Tater Tots" },
+      { "Side 2": "French Toast Sticks" },
       { "Protein": "Sliced Ham" }
     ],
     "Lunch": [
@@ -146,8 +146,8 @@
   "Saturday": {
     "Breakfast": [
       { "Entrée": "Scrambled Eggs" },
-      { "Side": "Hash Brown Patties" },
-      { "Side": "English Muffin Sandwich with Sausage Patty and Cheese" },
+      { "Side 1": "Hash Brown Patties" },
+      { "Side 2": "English Muffin Sandwich with Sausage Patty and Cheese" },
       { "Protein": "Thick Cut Bacon" }
     ],
     "Lunch": [
