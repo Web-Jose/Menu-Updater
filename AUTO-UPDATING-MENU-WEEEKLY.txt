@@ -68,3 +68,5 @@ Resources
 	• https://github.com/Web-Jose/Housing-Changes/blob/main/Menu-Update.json
 	• https://openai.com/pricing
 	• https://platform.openai.com/tokenizer
+
+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
