@@ -19,9 +19,9 @@
       { "Vegan Entrée": "Kung Pao Tofu" },
       { "Vegetable": "Vegetable Medley" },
       { "Side": "Vegetable Chow Mein" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   },
   "Monday": {
     "Breakfast": [
@@ -43,9 +43,9 @@
       { "Vegan Entrée": "Vegan Dirty Rice Stuffed Bell Peppers" },
       { "Vegetable": "Italian Blend" },
       { "Side": "Buttered Baby Bakers" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   },
   "Tuesday": {
     "Breakfast": [
@@ -67,9 +67,9 @@
       { "Vegan Entrée": "Garlic and Orzo Stuffed Tomatoes" },
       { "Vegetable": "Roasted Carrots" },
       { "Side": "Rice Pilaf" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   },
   "Wednesday": {
     "Breakfast": [
@@ -91,9 +91,9 @@
       { "Vegan Entrée": "Tofu Burnt Ends" },
       { "Vegetable": "Mixed Vegetables" },
       { "Side": "Arroz Blanco with Garlic" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   },
   "Thursday": {
     "Breakfast": [
@@ -115,9 +115,9 @@
       { "Vegan Entrée": "Roasted Butternut Squash and Chickpeas" },
       { "Vegetable": "Buttered Corn" },
       { "Side": "Fully Loaded Mashed Potatoes" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   },
   "Friday": {
     "Breakfast": [
@@ -139,9 +139,9 @@
       { "Vegan Entrée": "Beyond Sausage and Kale Pasta" },
       { "Vegetable": "Roasted Broccoli and Cauliflower" },
       { "Side": "Whole Grain Cheese Breadstick" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   },
   "Saturday": {
     "Breakfast": [
@@ -163,8 +163,8 @@
       { "Vegan Entrée": "Roasted Butternut Squash and Chickpeas" },
       { "Vegetable": "Squash Medley with Red Bell Peppers" },
       { "Side": "Jollof Rice" },
-      { "Bread": "Chef/'s Choice" }
+      { "Bread": "Chef's Choice" }
     ],
-    "Dessert": [{ "Specialty Dessert": "Chef/'s Choice" }]
+    "Dessert": [{ "Specialty Dessert": "Chef's Choice" }]
   }
 }

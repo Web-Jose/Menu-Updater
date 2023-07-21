@@ -3,7 +3,7 @@ add_action('dining_menu_updater', 'update_pods_from_github');
 function update_pods_from_github()
 {
     //Url to JSON file hosted on GitHub: repository Menu-Updater, branch master, file Menu.json
-    $url = 'https://raw.githubusercontent.com/Web-Jose/Menu-Updater/af96865b4ef4eabb64ef42ab0f1b50985aa83621/Menu.json';
+    $url = 'https://github.com/Web-Jose/Menu-Updater/blob/main/Menu.json';
 
     // GitHub Personal Access Token
     $token = '1234567890abcdef1234567890abcdef12345678';
