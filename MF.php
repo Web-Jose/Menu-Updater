@@ -36,39 +36,44 @@ function update_pods_from_github()
         return;
     }
 
+    error_log('menu_data: ' . print_r($menu_data, true));
+
     // Loop through each day in the menu data (e.g., Sunday, Monday, Tuesday)
     foreach ($menu_data as $day => $meals) {
 
         // Loop through each meal type (e.g., Breakfast, Lunch, Dinner)
         foreach ($meals as $meal_type => $items) {
 
-            //Loop through each food type (e.g., Entrees, Sides, Desserts)
-            foreach ($items as $food_type => $food_items) {
+            if (is_array($items)) {
+                //Loop through each food type (e.g., Entrees, Sides, Desserts)
+                foreach ($items as $food_item) {
+                    // Loop Through each food item (e.g., Chicken, Rice, Beans)
+                    foreach ($food_item as $food_type => $item) {
 
-                //Loop Through each food item (e.g., Chicken, Rice, Beans)
-                foreach ($food_items as $food => $item) {
+                        // Get the Dining Hall Menu Pod
+                        $DiningPod = pods('dining_hall_menu');
 
-                    // Get the Dining Hall Menu Pod
-                    $DiningPod = pods('dining_hall_menu');
+                        // Check if pod exists
+                        if ($DiningPod->exists()) {
 
-                    // Check if pod exists
-                    if ($DiningPod->exists()) {
+                            //Creating the field name
+                            $field_name = strtolower($day . 's_' . $meal_type . '_' . str_replace(" ", "_", str_replace("é", "e", $food_type)));
 
-                        //Creating the field name
-                        $field_name = strtolower($day . 's_' . $meal_type . '_' . str_replace(" ", "_", str_replace("é", "e", $food_type)));
+                            // Save the value to the field name
+                            $FieldValue = array(
+                                $field_name => $item
+                            );
 
-                        // Save the value to the field name
-                        $FieldValue = array(
-                            $field_name => $item
-                        );
-
-                        // Update the pod
-                        $DiningPod->save($FieldValue);
-                    } else {
-                        error_log('Pod does not exist: ' . $DiningPod);
-                        continue;
+                            // Update the pod
+                            $DiningPod->save($FieldValue);
+                        } else {
+                            error_log('Pod does not exist: ' . $DiningPod);
+                            continue;
+                        }
                     }
                 }
+            } else {
+                error_log('$items is not an array on day ' . $day . ', meal_type ' . $meal_type);
             }
         }
     }
