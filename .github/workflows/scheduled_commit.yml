@@ -1,0 +1,27 @@
+name: Scheduled Commit and Push
+on:
+  schedule:
+    # Schedule for every Sunday at 9 AM
+    - cron: "0 9 * * 0"
+
+jobs:
+  commit_and_push:
+    name: Commit and Push Changes
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Add your build, test, or other necessary steps here if needed.
+
+      - name: Configure Git
+        run: |
+          git config user.name "Web-Jose"
+          git config user.email "josehcortes02@gmail.com"
+
+      - name: Commit and Push Changes
+        run: |
+          git add .
+          git commit -m "Scheduled commit"
+          git push
