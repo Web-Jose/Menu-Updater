@@ -1,5 +1,6 @@
-const axios = require("axios");
-const PDFParser = require("pdf-parse");
+const axios = require("axios"); // Import the axios module for making HTTP requests
+const PDFParser = require("pdf-parse"); // Import the PDF parser module
+const fs = require("fs"); // Import the Node.js file system module
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -85,7 +86,7 @@ async function createChatCompletion() {
         {
           role: "system",
           content:
-            "Convert the table provided to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.",
+            "You are given a list of meals for each day of the week. Your task is to convert this information into a JSON format following a specific structure. Each day of the week will be represented as a key in the JSON object, using the word form (e.g., Sunday, Monday, Tuesday, etc.). For each day, there will be four sub-keys: Breakfast, Lunch, Dinner, and Dessert. The value corresponding to each sub-key will be an array containing individual dishes served during that meal. Each dish should be represented as a dictionary, where the type of dish (e.g., Entrée, Side 1, Side 2, Protein, etc.) will serve as the key, and the actual dish's name will be the value. Please note the following guidelines: If a meal includes multiple dishes of the same type (e.g., two different side dishes), use numbers to differentiate them (e.g., Side 1, Side 2). Before creating the JSON representation, please ensure to perform a spell check on the provided information to correct any grammatical mistakes or misspellings. Your JSON output should adhere to this structure for every day of the week, including all meal types.",
         },
         {
           role: "user",
@@ -95,10 +96,28 @@ async function createChatCompletion() {
       temperature: 0.2,
       max_tokens: 2048,
     });
-    console.log(completion.data.choices[0].message);
+    // Extract the output message from the API response
+    const outputMessage = completion.data.choices[0].message;
+
+    // Convert the JSON-formatted string to a JavaScript object
+    const menuData = JSON.parse(outputMessage.content);
+
+    // Write the data to the Menu.json file in the same folder
+    fs.writeFile("Menu.json", JSON.stringify(menuData, null, 2), (err) => {
+      if (err) {
+        console.error("Error writing to Menu.json:", err);
+      } else {
+        console.log("Output saved to Menu.json");
+      }
+    });
   } catch (error) {
     console.error("Error creating chat completion:", error);
   }
+  /*
+    console.log(completion.data.choices[0].message);
+  } catch (error) {
+    console.error("Error creating chat completion:", error);
+  }*/
 }
 
 // Call the function
