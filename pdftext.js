@@ -1,12 +1,11 @@
 const axios = require("axios");
 const PDFParser = require("pdf-parse");
-/*
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
-*/
+
 // Function to format the date as YYYY-MM-DD
 function formatDate(date) {
   const year = date.getFullYear();
@@ -50,11 +49,12 @@ async function fetchAndExtractText() {
     text = text.replace(/([a-zA-Z])(\d)/g, "$1 $2"); // Add space between letters and numbers
     return text;
   } catch (error) {
-    console.error("Error:", error);
+    console.error("Error fetching or parsing the PDF:", error);
     throw error;
   }
 }
 
+/*
 // Example usage
 fetchAndExtractText()
   .then((text) => {
@@ -63,12 +63,17 @@ fetchAndExtractText()
   .catch((error) => {
     console.error("Error:", error);
   });
-/*
+  */
+
 async function GeneratePrompt() {
-  const PDFtext = await fetchAndExtractText();
-  const prompt = PDFtext; /* +
-    "\n\nConvert the table provided to JSON. The structure of the JSON will be as follows: Each day of the week will be a key (word form). Each meal (Breakfast, Lunch, Dinner, Dessert) will be a sub-key. Each sub-key will have an array of dishes, where each dish is a dictionary with the type of dish (Entrée, Side, Protein, etc.) as the key and the actual dish as the value. Complete for every day of the week.\n\n"/
-  return prompt;
+  try {
+    const PDFtext = await fetchAndExtractText();
+    const prompt = PDFtext;
+    return prompt;
+  } catch (error) {
+    console.error("Error generating the prompt:", error);
+    throw error;
+  }
 }
 
 async function createChatCompletion() {
@@ -88,14 +93,13 @@ async function createChatCompletion() {
         },
       ],
       temperature: 0.2,
-      max_tokens: 4000,
+      max_tokens: 2048,
     });
     console.log(completion.data.choices[0].message);
   } catch (error) {
-    console.error("Error:", error);
+    console.error("Error creating chat completion:", error);
   }
 }
 
 // Call the function
 createChatCompletion();
-*/
