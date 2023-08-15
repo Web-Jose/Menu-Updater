@@ -1,10 +1,10 @@
-# Guide to using 'Weekly Dining Hall Menu Updater' <a name="guide-to-using-weekly-dining-hall-menu-updater"></a>
+# Guide to using 'Weekly Dining Hall Menu Updater'
 
-## Overview <a name="Overview"></a>
+## Overview
 
 The **Weekly Dining Hall Menu Updater** is a project designed to automatically update the [Dining Hall Menu](https://fresnostatehousing.org/dining-hall-menu/) page on the Fresno State Housing website by fetching the current week's menu from the [Fresno State University Dining Services](https://auxiliary.fresnostate.edu/association/dining/dining-hall/dining-menus.html) page, parsing it into a JSON object, and then uploading it to the Housing website's database. The project is divided into multiple components, including fetching the menu PDF, converting it to JSON using the ChatGPT API, and updating the website's database with the new menu data. The project is designed to be run as a cron job, but it can also be run manually. It is also designed to work specifically with the Fresno State Housing website and the [Pods Framework](https://wordpress.org/plugins/pods/), but it can be modified to work with other websites that use [WordPress.org](https://wordpress.org/).
 
-## Table of Contents <a name="Table-of-Contents"></a>
+## Table of Contents
 
 1. [Overview](#Overview)
 2. [Table of Contents](#Table-of-Contents)
@@ -16,7 +16,7 @@ The **Weekly Dining Hall Menu Updater** is a project designed to automatically u
 8. [Credits](#Credits)
 9. [Conclusion](#Conclusion)
 
-## Before You Begin <a name="Before-You-Begin"></a>
+## Before You Begin
 
 Before you begin using the **Weekly Dining Hall Menu Updater**, you will need to have or install the following your computer:
 
@@ -60,7 +60,7 @@ Before you begin using the **Weekly Dining Hall Menu Updater**, you will need to
 - [WP Crontrol Plugin (Cron Job)](https://wordpress.org/plugins/wp-crontrol/)
   - If you want to update the **Dining_Hall_menu** pod as a cron job, you'll need to have the WP Crontrol plugin installed on your website. You can install the WP Crontrol plugin by following the instructions here: https://wordpress.org/plugins/wp-crontrol/
 
-## How to Use <a name="How-to-Use"></a>
+## How to Use
 
 Follow the steps below to use the **Weekly Dining Hall Menu Updater** to update the [Dining Hall Menu](https://fresnostatehousing.org/dining-hall-menu/) page:
 
@@ -102,7 +102,7 @@ Follow the steps below to use the **Weekly Dining Hall Menu Updater** to update 
    - If the **Menu_PDF_To_JSON.js** file is working properly, check the **functions.php** file to make sure it is working properly.
    - Ensure that the variables and field names used in the **Menu_PDF_To_JSON.js** file and the **functions.php** file match the variables and field names used in your website's database.
 
-## How it Works <a name="How-it-Works"></a>
+## How it Works
 
 This is a deep dive into the code of the **Weekly Dining Hall Menu Updater**. If you're not interested in the code, you can skip this section.
 
