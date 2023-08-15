@@ -264,4 +264,151 @@ The **Menu_PDF_To_JSON.js** file is the main file of the **Weekly Dining Hall Me
     createChatCompletion();
     ```
 
-**Section 4: Updating the Dining_Hall_menu Pod**
+### functions.php
+
+The **functions.php** file is responsible for updating the Pods database of the Fresno State Housing website with the new menu data. The file is divided into multiple sections, each of which is responsible for a different part of the process.
+
+**Section 1: How the WP Crontrol can call the function**
+
+- The first section of the file is responsible for creating the **dining_menu_updater** action. This function is called by the WP Crontrol plugin to update the database of the Fresno State Housing website. The function is called by the WP Crontrol plugin using the following code:
+
+  ```php
+  add_action("dining_menu_updater", "update_pods_from_github");
+  ```
+
+  **Section 2: Getting the Pod, checking if it exists, and setting values to 'None'**
+
+- The second section of the file is responsible for getting the **Dining_Hall_menu** pod from the database, checking if it exists, and setting the values of the fields to **None**. The **Dining_Hall_menu** pod is the pod that stores the menu data on the Fresno State Housing website.
+
+  - The function gets the **Dining_Hall_menu** pod from the database using the following code:
+
+    ```php
+    function update_pods_from_github() {
+        //Get Pod to make values None
+        $InitialPod = pods('dining_hall_menu');
+
+        // Check if pod exists
+        if ($InitialPod->exists()) {
+            // Get all fields.
+            $fields = $InitialPod->fields();
+            // Set all values to None
+            foreach ($fields as $field) {
+                $InitialPod->save([$field['name'] => 'None']);
+            }
+        } else {
+            error_log('Pod does not exist: ' . $InitialPod);
+            return;
+        }
+    ```
+
+  - Gets RAW JSON data from GitHub using the following code:
+    ```php
+    $url = 'https://raw.githubusercontent.com/Web-Jose/Menu-Updater/main/Menu.json';
+    $response = wp_remote_get($url);
+    // Check for errors
+    if (is_wp_error($response)) {
+        error_log('Error in URL request: ' . $response->get_error_message());
+        return;
+    }
+    // Get the JSON from the body of the response
+    $json_data = wp_remote_retrieve_body($response);
+    ```
+  - Check JSON data for errors using the following code:
+    ```php
+    // Check if the JSON data was retrieved
+    if (empty($json_data)) {
+        error_log('No JSON data retrieved from URL');
+        return;
+    }
+    // Log the first 200 characters of the JSON data
+    error_log('First 200 chars of JSON data: ' . substr($json_data, 0, 200));
+    ```
+  - Convert JSON data to an associative array using the following code:
+    ```php
+    $menu_data = json_decode($json_data, true);
+    ```
+  - Check if the JSON data was converted to an associative array using the following code:
+
+    ```php
+    // Check the JSON error
+    switch (json_last_error()) {
+    case JSON_ERROR_NONE:
+        error_log('No JSON decode errors');
+        break;
+    case JSON_ERROR_DEPTH:
+        error_log('JSON decode error: Maximum stack depth exceeded');
+        break;
+    case JSON_ERROR_STATE_MISMATCH:
+        error_log('JSON decode error: Underflow or the modes mismatch');
+        break;
+    case JSON_ERROR_CTRL_CHAR:
+        error_log('JSON decode error: Unexpected control character found');
+        break;
+    case JSON_ERROR_SYNTAX:
+        error_log('JSON decode error: Syntax error, malformed JSON');
+        break;
+    case JSON_ERROR_UTF8:
+        error_log('JSON decode error: Malformed UTF-8 characters, possibly incorrectly encoded');
+        break;
+    default:
+        error_log('JSON decode error: Unknown error');
+        break;
+        }
+
+    // Check for errors decoding the JSON
+    if (is_null($menu_data)) {
+        error_log('Error decoding JSON from API');
+        return;
+    }
+    ```
+
+  - Update the database with the new menu data using the following code:
+    ```php
+    // Loop through each day in the menu data (e.g., Sunday, Monday, Tuesday)
+    foreach ($menu_data as $day => $meals) {
+        // Loop through each meal type (e.g., Breakfast, Lunch, Dinner)
+        foreach ($meals as $meal_type => $items) {
+            if (is_array($items)) {
+                //Loop through each food type (e.g., Entrees, Sides, Desserts)
+                foreach ($items as $food_item) {
+                    if (is_array($food_item)) {
+    				// Loop Through each food item (e.g., Chicken, Rice, Beans)
+    				foreach ($food_item as $food_type => $item) {
+                        // Get the Dining Hall Menu Pod
+                        $DiningPod = pods('dining_hall_menu');
+                        // Check if pod exists
+                        if ($DiningPod->exists()) {
+                            //Creating the field name
+                            $field_name = strtolower($day . 's_' . $meal_type . '_' . str_replace(" ", "_", str_replace("é", "e", $food_type)));
+                            // Save the value to the field name
+                            $FieldValue = array(
+                                $field_name => $item
+                            );
+                            // Update the pod
+                            $DiningPod->save($FieldValue);
+                        } else {
+                            error_log('Pod does not exist: ' . $DiningPod);
+                            continue;
+                        }
+                    }
+                    } else {
+    				    // This should handle the Dessert situation
+    				    $DiningPod = pods('dining_hall_menu');
+    				    if ($DiningPod->exists()) {
+    					    $field_name = strtolower($day . 's_' . $meal_type . '_' . str_replace(" ", "_", str_replace("é", "e", array_keys($items)[0])));
+    					    $FieldValue = array(
+    						    $field_name => $food_item // note: this is changed
+    					    );
+    					$DiningPod->save($FieldValue);
+                    } else {
+                        error_log('Pod does not exist: ' . $DiningPod);
+                    }
+    			    }
+    		    }
+        } else {
+            error_log('$items is not an array on day ' . $day . ', meal_type ' . $meal_type);
+            }
+        }
+    }
+    }
+    ```
