@@ -56,11 +56,11 @@ Before you begin using the **Weekly Dining Hall Menu Updater**, you will need to
   - Since you're using the ChatGPT API, you'll need an OpenAI API key. If you don't have one, you can sign up for an account on the OpenAI platform and obtain an API key from there.
 - [Text Editor or IDE](https://aws.amazon.com/what-is/ide/)
   - You'll need a text editor or integrated development environment (IDE) to edit the code. I recommend using [Visual Studio Code](https://code.visualstudio.com/), but you can use any text editor or IDE you want.
-- [Git (Opional, but Recommended)](https://git-scm.com/)
+- [Git (Optional, but Recommended)](https://git-scm.com/)
   - Git is a version control system that allows you to track changes to your code. Having Git installed will make it easier to manage and update your codebase and repositories. You can download Git from: <https://git-scm.com/downloads>
 - [GitHub Repository (Optional, for JSON Data)](https://docs.github.com/en/get-started/quickstart/create-a-repo)
   - If you want to store the JSON data in a GitHub repository, you'll need to create a repository on GitHub. You can create a repository by following the instructions here: <https://docs.github.com/en/get-started/quickstart/create-a-repo>
-- [Github Actions (Optional, for Cron Job)](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions)
+- [GitHub Actions (Optional, for Cron Job)](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions)
   - If you want to upload the **Menu.json** as a cron job, you'll need to create a GitHub Actions workflow. You can create a workflow by following the instructions here: <https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions>
 - [Windows Operating System (for .bat file execution)](https://www.microsoft.com/en-us/windows)
   - If you want to run the **Weekly_Dining_Hall_Menu_Updater.bat** file, you'll need to be running Windows. If you're running a different operating system, you can still run the **Menu_PDF_To_JSON.js** file using Node.js.
@@ -125,7 +125,7 @@ Follow the steps below to use the **Weekly Dining Hall Menu Updater** to update 
 
 ## Fully Autonomizing the Process
 
-If you want to fully autonomize the process, you can creat and run a .bat file to automatically run the **Menu_PDF_To_JSON.js** file every week. To do this, follow the steps below:
+If you want to fully autonomize the process, you can create and run a .bat file to automatically run the **Menu_PDF_To_JSON.js** file every week. To do this, follow the steps below:
 
 ### Step 1: Create a .bat file
 
