@@ -527,12 +527,26 @@ The **functions.php** file is responsible for updating the Pods database of the 
 
 ## Future Plans
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [ ] Eliminate the need for Github Actions by adding git commands to the .bat file.
+
+## Resources
+
+- [Node.js](https://nodejs.org/en/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [PDF-Parse](https://www.npmjs.com/package/pdf-parse)
+- [OpenAI](https://www.npmjs.com/package/openai)
+- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference/introduction)
+- [OpenAI GPT Documentation](https://platform.openai.com/docs/guides/gpt)
+- [OpenAI API Pricing](https://openai.com/pricing)
+- [OpenAI Tokenization](https://platform.openai.com/tokenizer)
+- [Pods Framework](https://wordpress.org/plugins/pods/)
+- [WP Crontrol](https://wordpress.org/plugins/wp-crontrol/)
+- [GitHub Actions](https://docs.github.com/en/actions)
+
+## Credits
+
+- [Jose Cortes](https://github.com/Web-Jose) - Project Creator, Developer, and Maintainer.
+
+## Conclusion
+
+Thank you for reading this guide. I hope you found it helpful. If you have any questions, comments, or suggestions, please feel free to contact me at <JoseHCortes02@gmail.com>.
