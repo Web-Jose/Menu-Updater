@@ -195,7 +195,7 @@ If you want to fully autonomize the process, you can creat and run a .bat file t
 
 ## How it Works
 
-This is a deep dive into the code of the **Weekly Dining Hall Menu Updater**. If you're not interested in the code, you can skip this section.
+This is a deep dive into the code of the **Weekly Dining Hall Menu Updater**. If you're not interested in the code, you can skip to the [Future Plans](#future-plans) section.
 
 ### Menu_PDF_To_JSON.js
 
