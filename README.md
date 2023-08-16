@@ -133,10 +133,11 @@ If you want to fully autonomize the process, you can create and run a .bat file 
 2. Copy and paste the following code into the file:
 
    ```bash
-   # Forget to write this part in my notes
+   set OPENAI_API_KEY=[YOUR_API_KEY]
+   node pdftext.js
    ```
 
-3. Replace the **OPENAI_API_KEY** in the previous code with your own API key.
+3. Replace the **YOUR_API_KEY** in the previous code with your own API key.
    - You can find your API key on the [OpenAI platform](https://platform.openai.com/account/api-keys).
 4. Save the file as **Weekly_Dining_Hall_Menu_Updater.bat**.
 
