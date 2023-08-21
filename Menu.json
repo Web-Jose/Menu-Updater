@@ -28,10 +28,10 @@
         "Side": "Rice Pilaf with Angel Hair"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Chef's Choice"
+        "Soup Option 2": "Chef's Choice"
       }
     ],
     "Dinner": [
@@ -89,10 +89,10 @@
         "Feature Station": "Pizza"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Italian Minestrone Soup"
+        "Soup Option 2": "Italian Minestrone Soup"
       }
     ],
     "Dinner": [
@@ -150,10 +150,10 @@
         "Side": "Steamed Jasmine Rice"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Hot and Sour Soup"
+        "Soup Option 2": "Hot and Sour Soup"
       }
     ],
     "Dinner": [
@@ -214,10 +214,10 @@
         "Feature Station": "Wild Wing Wednesday"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Broccoli and Chesese Soup"
+        "Soup Option 2": "Broccoli and Chesese Soup"
       }
     ],
     "Dinner": [
@@ -275,10 +275,10 @@
         "Side": "Fettucine with Pesto Alfredo Sauce"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Tomato Florentine Soup"
+        "Soup Option 2": "Tomato Florentine Soup"
       }
     ],
     "Dinner": [
@@ -336,10 +336,10 @@
         "Side": "Vegetable Chow Mein"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Boston Clam Chowder"
+        "Soup Option 2": "Boston Clam Chowder"
       }
     ],
     "Dinner": [
@@ -394,10 +394,10 @@
         "Side": "White Cheddar Mac and Cheese"
       },
       {
-        "Soup Station Option 1": "Hearty Vegetarian Chili"
+        "Soup Option 1": "Hearty Vegetarian Chili"
       },
       {
-        "Soup Station Option 2": "Chef's Choice"
+        "Soup Option 2": "Chef's Choice"
       }
     ],
     "Dinner": [
