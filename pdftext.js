@@ -35,6 +35,8 @@ function generateLink() {
   return link;
 }
 
+console.log(generateLink());
+
 // Function to fetch the PDF and extract text
 async function fetchAndExtractText() {
   try {
@@ -86,7 +88,7 @@ async function createChatCompletion() {
         {
           role: "system",
           content:
-            "You are given a list of meals for each day of the week. Your task is to convert this information into a JSON format following a specific structure. Each day of the week will be represented as a key in the JSON object, using the word form (e.g., Sunday, Monday, Tuesday, etc.). For each day, there will be four sub-keys: Breakfast, Lunch, Dinner, and Dessert. The value corresponding to each sub-key will be an array containing individual dishes served during that meal. Each dish should be represented as a dictionary, where the type of dish (e.g., Entrée, Side 1, Side 2, Protein, etc. [They are found listed a long side the menu items]) will serve as the key, and the actual dish's name will be the value. Please note the following guidelines: If a meal includes multiple dishes of the same type (e.g., two different side dishes), use numbers to differentiate them (e.g., Side 1, Side 2). Before creating the JSON representation, please ensure to perform a spell check on the provided information to correct any grammatical mistakes or misspellings. Your JSON output should adhere to this structure for every day of the week, including all meal types. Soup Station should be included as a sub-key for Lunch and Dinner.",
+            "You are given a list of meals for each day of the week. Your task is to convert this information into a JSON format following a specific structure. Each day of the week will be represented as a key in the JSON object, using the word form (e.g., Sunday, Monday, Tuesday, etc.). For each day, there will be four sub-keys: Breakfast, Lunch, Dinner, and Dessert. The value corresponding to each sub-key will be an array containing individual dishes served during that meal. Each dish should be represented as a dictionary, where the type of dish (e.g., Entrée, Side 1, Side 2, Protein, etc. [They are found listed a long side the menu items]) will serve as the key, and the actual dish's name will be the value. Please note the following guidelines: If a meal includes multiple dishes of the same type (e.g., two different side dishes), use numbers to differentiate them (e.g., Side 1, Side 2). Before creating the JSON representation, please ensure to perform a spell check on the provided information to correct any grammatical mistakes or misspellings. Your JSON output should adhere to this structure for every day of the week, including all meal types. Soup Station should be included as a sub-key for Lunch.",
         },
         {
           role: "user",
