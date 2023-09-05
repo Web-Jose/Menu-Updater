@@ -21,8 +21,7 @@
       "Entrée 2": "Parmesan Crusted Pork Loin",
       "Vegan Entrée": "Eggplant Cutlet",
       "Vegetable": "Zucchini Coins with Tomatoes",
-      "Side": "Potato Au Gratin",
-      "Action Station": "Omelet Bar"
+      "Side": "Potato Au Gratin"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
@@ -51,7 +50,7 @@
       "Vegan Entrée": "Butternut Squash Goulash",
       "Vegetable": "Steamed Broccoli and Cauliflower",
       "Side": "Wild Rice Pilaf",
-      "Action Station": "Pasta Bar"
+      "Action Station": "Omelet Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Orange Cream Cake"
@@ -69,6 +68,7 @@
       "Vegan Entrée": "Sweet Potato Chili",
       "Vegetable": "Beer Battered Onion Rings",
       "Side": "Baked Ziti",
+      "Feature Station": "National Cheese Pizza Day",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Tomato Basil Bisque"
@@ -76,11 +76,11 @@
     },
     "Dinner": {
       "Entrée 1": "BBQ Rubbed Chicken Thighs",
-      "Entrée 2": "Beef Tamales",
+      "Entrée 2": "Kansas City Style Smoked Pork Ribs",
       "Vegan Entrée": "Grilled Portobello Mushroom with Garlic Butter",
       "Vegetable": "Corn on the Cob",
       "Side": "Rice Pilaf",
-      "Action Station": "Sizzling Salad Bar"
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Rockslide Brownies"
@@ -98,6 +98,7 @@
       "Vegan Entrée": "Quinoa Stuffed Bell Peppers",
       "Vegetable": "Oven Roasted Brussels Sprouts",
       "Side": "Pesto Alfredo Pasta",
+      "Feature Station": "Build-Your-Own-Burger",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Italian Wedding Soup"
@@ -105,11 +106,11 @@
     },
     "Dinner": {
       "Entrée 1": "Beef Tamales",
-      "Entrée 2": "Kansas City Style Smoked Pork Ribs",
+      "Entrée 2": "Chicken Carnitas",
       "Vegan Entrée": "Vegan Chile Rellenos with Ranchero Sauce",
       "Vegetable": "Mexican Squash Sauté",
       "Side": "Garlic Pinto Beans",
-      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
+      "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Cinnamon Churros"
@@ -134,11 +135,11 @@
     },
     "Dinner": {
       "Entrée 1": "Swedish Beef Meatballs",
-      "Entrée 2": "Chicken Carnitas",
+      "Entrée 2": "Chicken Schnitzel with Lemon Butter",
       "Vegan Entrée": "Spinach Pesto Vegan Meatballs",
       "Vegetable": "Sautéed Cabbage with Bacon",
       "Side": "Garlic Herb Potatoes",
-      "Action Station": "Pizza Night"
+      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
     },
     "Dessert": {
       "Specialty Dessert": "German Chocolate Cake"
@@ -156,6 +157,7 @@
       "Vegan Entrée": "Penne Pasta with Sundried Tomatoes",
       "Vegetable": "Sautéed Green Beans with Red Bell Peppers",
       "Side": "Garlic Roasted Mashed Potatoes",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "New England Clam Chowder"
@@ -163,10 +165,11 @@
     },
     "Dinner": {
       "Entrée 1": "Thyme Roasted Chicken Thighs",
-      "Entrée 2": "Chicken Schnitzel with Lemon Butter",
+      "Entrée 2": "Salisbury Steak with Mushroom Gravy",
       "Vegan Entrée": "Pasta Primavera",
       "Vegetable": "Steamed Baby Carrots",
-      "Side": "Mashed Potatoes with Spinach"
+      "Side": "Mashed Potatoes with Spinach",
+      "Action Station": "Pizza Night"
     },
     "Dessert": {
       "Specialty Dessert": "Red Velvet Cake"
