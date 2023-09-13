@@ -11,8 +11,10 @@
       "Vegan Entrée": "Meatless Lover Pasta with Vegan Pepperoni",
       "Vegetable": "Sautéed Vegetable Medley",
       "Side": "Red Skinned Mashed Potatoes with Spinach",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "Chef's Choice"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Chef's Choice"
+      }
     },
     "Dinner": {
       "Entrée 1": "Chinese BBQ Pork",
@@ -38,8 +40,10 @@
       "Vegetable": "Roasted Cauliflower",
       "Side": "Baked Three Cheese Macaroni",
       "Feature Station": "Pizza",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "Chicken Noodle Soup"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Chicken Noodle Soup"
+      }
     },
     "Dinner": {
       "Entrée 1": "Grilled Cajun Sausage",
@@ -65,8 +69,10 @@
       "Vegan Entrée": "Black Bean and Corn Enchiladas with Soy Cheese",
       "Vegetable": "Squash Medley",
       "Side": "Mexican Rice",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "Tomato Basil Bisque"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Tomato Basil Bisque"
+      }
     },
     "Dinner": {
       "Entrée 1": "Pollo Asado",
@@ -92,8 +98,10 @@
       "Vegan Entrée": "Spinach and Pesto Gnocchi",
       "Vegetable": "Sautéed Green Beans",
       "Side": "Cheese Tortellini with Marinara Sauce",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "Italian Wedding Soup"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Italian Wedding Soup"
+      }
     },
     "Dinner": {
       "Entrée 1": "Chili Lime Tilapia",
@@ -120,8 +128,10 @@
       "Vegetable": "Charred Bulldog Vegetable Blend",
       "Side": "Creamy Cajun Pasta",
       "Feature Station": "Build-Your-Own-Burger  and Pizza",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "Vegetable Minestrone Soup"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Vegetable Minestrone Soup"
+      }
     },
     "Dinner": {
       "Entrée 1": "Garlic Butter Shrimp",
@@ -148,8 +158,10 @@
       "Vegetable": "Steamed Broccoli",
       "Side": "Cheesy Bread Sticks",
       "Feature Station": "Pho Bar",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "New England Clam Chowder"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "New England Clam Chowder"
+      }
     },
     "Dinner": {
       "Entrée 1": "Crispy Kung Pao Chicken",
@@ -176,8 +188,10 @@
       "Vegetable": "Mexican Zucchini",
       "Side": "Refried Beans",
       "Feature Station": "Shrimp Ceviche",
-      "Soup Station Option 1": "Hearty Vegetarian Chili",
-      "Soup Station Option 2": "Menudo"
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Menudo"
+      }
     },
     "Dinner": {
       "Entrée 1": "Lemon Pepper Chicken Thighs",
