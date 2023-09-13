@@ -77,7 +77,7 @@
       "Action Station": "Pasta Bar"
     },
     "Dessert": {
-      "Dessert": "Cheesecake with Berry Compote"
+      "Specialty Desserts": "Cheesecake with Berry Compote"
     }
   },
   "Wednesday": {
@@ -104,7 +104,7 @@
       "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
-      "Dessert": "Assorted Dessert Bars"
+      "Specialty Desserts": "Assorted Dessert Bars"
     }
   },
   "Thursday": {
@@ -132,7 +132,7 @@
       "Action Station": "Ice Cream Sundae Bar and Stir Fry Bar"
     },
     "Dessert": {
-      "Dessert": "Raspberry Cheesecake Chimichangas"
+      "Specialty Desserts": "Raspberry Cheesecake Chimichangas"
     }
   },
   "Friday": {
@@ -160,7 +160,7 @@
       "Action Station": "Pizza Night"
     },
     "Dessert": {
-      "Dessert": "Churro Donuts"
+      "Specialty Desserts": "Churro Donuts"
     }
   },
   "Saturday": {
@@ -187,7 +187,7 @@
       "Side": "Scalloped Potatoes"
     },
     "Dessert": {
-      "Dessert": "Chef's Choice"
+      "Specialty Desserts": "Chef's Choice"
     }
   }
 }
