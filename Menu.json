@@ -22,7 +22,7 @@
       "Side": "Steamed Basmati Rice"
     },
     "Dessert": {
-      "Specialty Desserts": "Chef's Choice"
+      "Specialty Dessert": "Chef's Choice"
     }
   },
   "Monday": {
@@ -50,7 +50,7 @@
       "Action Station": "Omelet Bar"
     },
     "Dessert": {
-      "Specialty Desserts": "German Chocolate Cake"
+      "Specialty Dessert": "German Chocolate Cake"
     }
   },
   "Tuesday": {
@@ -77,7 +77,7 @@
       "Action Station": "Pasta Bar"
     },
     "Dessert": {
-      "Specialty Desserts": "Cheesecake with Berry Compote"
+      "Specialty Dessert": "Cheesecake with Berry Compote"
     }
   },
   "Wednesday": {
@@ -104,7 +104,7 @@
       "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
-      "Specialty Desserts": "Assorted Dessert Bars"
+      "Specialty Dessert": "Assorted Dessert Bars"
     }
   },
   "Thursday": {
@@ -132,7 +132,7 @@
       "Action Station": "Ice Cream Sundae Bar and Stir Fry Bar"
     },
     "Dessert": {
-      "Specialty Desserts": "Raspberry Cheesecake Chimichangas"
+      "Specialty Dessert": "Raspberry Cheesecake Chimichangas"
     }
   },
   "Friday": {
@@ -160,7 +160,7 @@
       "Action Station": "Pizza Night"
     },
     "Dessert": {
-      "Specialty Desserts": "Churro Donuts"
+      "Specialty Dessert": "Churro Donuts"
     }
   },
   "Saturday": {
@@ -187,7 +187,7 @@
       "Side": "Scalloped Potatoes"
     },
     "Dessert": {
-      "Specialty Desserts": "Chef's Choice"
+      "Specialty Dessert": "Chef's Choice"
     }
   }
 }
