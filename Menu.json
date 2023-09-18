@@ -51,7 +51,7 @@
       "Vegan Entrée": "Vegan Pasta Carbonara",
       "Side": "Buttered Noodles",
       "Vegetable": "Charred Brussels Sprouts",
-      "Feature Station": "Omelet Bar"
+      "Action Station": "Omelet Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Black Forrest Cake"
@@ -80,7 +80,7 @@
       "Vegan Entrée": "Stuffed Portobello Mushrooms with Couscous",
       "Side": "Rice Pilaf with Orzo",
       "Vegetable": "Buttered Corn",
-      "Feature Station": "Pasta Bar"
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Pound Cake with Strawberries"
@@ -98,7 +98,6 @@
       "Vegan Entrée": "Vegan Enchiladas with Soy Cheese",
       "Side": "Whole Pinto Beans with Garlic",
       "Vegetable": "Cilantro Lime Rice",
-      "Feature Station": "Ice Cream Sundae Bar and Stir-Fry Bar",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Italian Wedding"
@@ -110,7 +109,7 @@
       "Vegan Entrée": "Tofu and Vegetable Stir-Fry",
       "Side": "Steamed Jasmine Rice",
       "Vegetable": "Steamed Bulldog Vegetable Blend",
-      "Feature Station": "Sizzling Salad Bar"
+      "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Strawberry Cream Cake"
@@ -140,7 +139,7 @@
       "Vegan Entrée": "Stuffed Bell Peppers with Chipotle Quinoa",
       "Side": "Mexican Rice with Peas",
       "Vegetable": "Sautéed Squash Medley",
-      "Feature Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
+      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Fried Raspberry Chimichangas"
@@ -170,7 +169,7 @@
       "Vegan Entrée": "Vegetable Stew with Butternut Squash",
       "Side": "Garlic Mashed Potatoes",
       "Vegetable": "Roasted Carrots",
-      "Feature Station": "Pizza Night"
+      "Action Station": "Pizza Night"
     },
     "Dessert": {
       "Specialty Dessert": "Chocolate Cake"
