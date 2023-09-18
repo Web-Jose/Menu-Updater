@@ -37,6 +37,8 @@ function generateLink() {
 
 console.log(generateLink());
 
+const targetText = `University Dining Services makes every effort to ensure the items listed on our menus are up to date and correct. However, the items listed are not a guarantee and are subject to change without notice Dinner Action Stations are available from 4pm-7pm, or until the special runs out Lunch Feature Stations are available from 11am-2pm, or until the special runs out Please also see our Fixed Menu for the complete list of items we carry each day`;
+
 // Function to fetch the PDF and extract text
 async function fetchAndExtractText() {
   try {
@@ -47,26 +49,17 @@ async function fetchAndExtractText() {
     const data = response.data;
     const pdf = await PDFParser(data);
     let text = pdf.text.replace(/\s+/g, " "); // Replace multiple spaces with a single space
+    text = text.replace(targetText, ""); // Remove the target text
     text = text.replace(/(\w)([A-Z])/g, "$1 $2"); // Add space between words and capital letters
     text = text.replace(/(\d{4})(\d{1,2})/g, "$1 $2"); // Add space after the fourth digit for 5 or 6-digit numbers
     text = text.replace(/([a-zA-Z])(\d)/g, "$1 $2"); // Add space between letters and numbers
+    console.log(text);
     return text;
   } catch (error) {
     console.error("Error fetching or parsing the PDF:", error);
     throw error;
   }
 }
-
-/*
-// Example usage
-fetchAndExtractText()
-  .then((text) => {
-    console.log(text);
-  })
-  .catch((error) => {
-    console.error("Error:", error);
-  });
-  */
 
 async function GeneratePrompt() {
   try {
@@ -88,7 +81,7 @@ async function createChatCompletion() {
         {
           role: "system",
           content:
-            "You are given a list of meals for each day of the week. Your task is to convert this information into a JSON format following a specific structure. Each day of the week will be represented as a key in the JSON object, using the word form (e.g., Sunday, Monday, Tuesday, etc.). For each day, there will be four sub-keys: Breakfast, Lunch, Dinner, and Dessert. The value corresponding to each sub-key will be an array containing individual dishes served during that meal. Each dish should be represented as a dictionary, where the type of dish (e.g., Entrée, Side 1, Side 2, Protein, etc. [They are found listed a long side the menu items]) will serve as the key, and the actual dish's name will be the value. Please note the following guidelines: If a meal includes multiple dishes of the same type (e.g., two different side dishes), use numbers to differentiate them (e.g., Side 1, Side 2). Before creating the JSON representation, please ensure to perform a spell check on the provided information to correct any grammatical mistakes or misspellings. Your JSON output should adhere to this structure for every day of the week, including all meal types. Soup Station should be included as a sub-key for Lunch.",
+            "You are presented with a PDF containing a weekly menu for a university dining hall. Your objective is to accurately convert this menu into a structured JSON format. Here are your detailed instructions: 1. Days of the Week: The days of the week are provided as 'Sunday', 'Monday', 'Tuesday', etc. These should serve as the primary keys in the JSON structure. 2. Meal Components: Each day should have distinct sub-keys for 'Breakfast', 'Lunch', 'Dinner', and 'Dessert'. For each meal: 'Breakfast' typically includes 1 'Entrée', 2 'Sides', and 1 'Protein'. 'Lunch' and 'Dinner' have multiple dishes like 'Entrée', 'Vegan Entrée', 'Side', 'Vegetable', and others. Capture all distinct dishes. Make sure to fully capture each dish's name without truncating or shortening it. 3. Multiple Dishes: If there are multiple dishes of the same type within a meal, label them sequentially, e.g., 'Entrée 1', 'Entrée 2'.4. Soup Station: The 'Lunch' meal might include a 'Soup Station' sub-key. This should have distinct keys like 'Soup Option 1', 'Soup Option 2', representing different soup choices. 5. Feature vs. Soup Station: Ensure you differentiate between 'Feature Station' and 'Soup Station'. They are not the same and should be treated as separate sub-keys. 6. Correctness: It's crucial to ensure the output is free from errors. Avoid misplacing items and ensure there are no grammatical or spelling mistakes. Using these guidelines, please transform the provided PDF content into a structured JSON format.",
         },
         {
           role: "user",
@@ -96,10 +89,11 @@ async function createChatCompletion() {
         },
       ],
       temperature: 0.2,
-      max_tokens: 2048,
+      max_tokens: 2500,
     });
     // Extract the output message from the API response
     const outputMessage = completion.data.choices[0].message;
+    console.log(outputMessage);
 
     // Convert the JSON-formatted string to a JavaScript object
     const menuData = JSON.parse(outputMessage.content);
@@ -115,12 +109,18 @@ async function createChatCompletion() {
   } catch (error) {
     console.error("Error creating chat completion:", error);
   }
-  /*
-    console.log(completion.data.choices[0].message);
-  } catch (error) {
-    console.error("Error creating chat completion:", error);
-  }*/
 }
 
 // Call the function
 createChatCompletion();
+
+// Exit the program when a key is pressed
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.setEncoding("utf8");
+
+console.log("Press any key to exit...");
+
+process.stdin.on("data", () => {
+  process.exit(0);
+});
