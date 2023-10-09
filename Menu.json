@@ -11,7 +11,6 @@
       "Vegan Entrée": "Tofu Scramble with Spinach",
       "Side": "Refried Beans",
       "Vegetable": "Tex-Mex Corn",
-      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
@@ -40,7 +39,7 @@
       "Vegan Entrée": "Vegan Green Bean Stir-Fry with Tofu",
       "Side": "Bacon Fried Rice",
       "Vegetable": "Sautéed Mixed Vegetables",
-      "Feature Station": "Build-Your-Own-Burger",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chicken Noodle Soup"
@@ -51,7 +50,8 @@
       "Entrée 2": "Chicken Cordon Bleu with Garlic Cream Sauce",
       "Vegan Entrée": "Butternut Squash Goulash",
       "Side": "Wild Rice Pilaf",
-      "Vegetable": "Steamed Broccoli and Cauliflower"
+      "Vegetable": "Steamed Broccoli and Cauliflower",
+      "Action Station": "Omelet Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Orange Cream Cake"
@@ -69,7 +69,7 @@
       "Vegan Entrée": "Sweet Potato Chili",
       "Side": "Baked Ziti",
       "Vegetable": "Beer Battered Onion Rings",
-      "Feature Station": "Pzza",
+      "Feature Station": "Build-Your-Own-Burger",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Tomato Basil Bisque"
@@ -80,7 +80,8 @@
       "Entrée 2": "Kansas City Style Smoked Pork Ribs",
       "Vegan Entrée": "Grilled Portobello Mushroom with Garlic Butter",
       "Side": "Rice Pilaf",
-      "Vegetable": "Corn on the Cob"
+      "Vegetable": "Corn on the Cob",
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Rockslide Brownies"
@@ -98,7 +99,6 @@
       "Vegan Entrée": "Quinoa Stuffed Bell Peppers",
       "Side": "Pesto Alfredo Pasta",
       "Vegetable": "Oven Roasted Brussels Sprouts",
-      "Feature Station": "Pho Bar",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Italian Wedding Soup"
@@ -109,7 +109,8 @@
       "Entrée 2": "Pork Carnitas",
       "Vegan Entrée": "Vegan Chile Rellenos with Ranchero Sauce",
       "Side": "Garlic Pinto Beans",
-      "Vegetable": "Mexican Squash Sauté"
+      "Vegetable": "Mexican Squash Sauté",
+      "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Cinnamon Churros"
@@ -127,7 +128,7 @@
       "Vegan Entrée": "Vegan Sloppy Joes",
       "Side": "Rice Pilaf with Angel Hair",
       "Vegetable": "Oven Roasted Asparagus",
-      "Feature Station": "Soup Station",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Vegetable Minestrone Soup"
@@ -138,7 +139,8 @@
       "Entrée 2": "Chicken Schnitzel with Lemon Butter",
       "Vegan Entrée": "Spinach Pesto Vegan Meatballs",
       "Side": "Garlic Herb Potatoes",
-      "Vegetable": "Sautéed Cabbage with Bacon"
+      "Vegetable": "Sautéed Cabbage with Bacon",
+      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
     },
     "Dessert": {
       "Specialty Dessert": "German Chocolate Cake"
@@ -156,7 +158,7 @@
       "Vegan Entrée": "Penne Pasta with Sundried Tomatoes",
       "Side": "Garlic Roasted Mashed Potatoes",
       "Vegetable": "Sautéed Green Beans with Red Bell Peppers",
-      "Feature Station": "Ice Cream Sundae Bar and Stir-Fry Bar",
+      "Feature Station": "Pho Bar",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "New England Clam Chowder"
@@ -167,7 +169,8 @@
       "Entrée 2": "Salisbury Steak with Mushroom Gravy",
       "Vegan Entrée": "Pasta Primavera",
       "Side": "Mashed Potatoes with Spinach",
-      "Vegetable": "Steamed Baby Carrots"
+      "Vegetable": "Steamed Baby Carrots",
+      "Action Station": "Pizza Night"
     },
     "Dessert": {
       "Specialty Dessert": "Red Velvet Cake"
@@ -185,7 +188,6 @@
       "Vegan Entrée": "Tofu Katsu",
       "Side": "Jasmine Steamed Rice",
       "Vegetable": "Stir-Fry Vegetables",
-      "Feature Station": "Pizza Night",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
