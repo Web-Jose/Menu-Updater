@@ -115,12 +115,12 @@ async function createChatCompletion() {
 createChatCompletion();
 
 // Exit the program when a key is pressed
-process.stdin.setRawMode(true);
-process.stdin.resume();
-process.stdin.setEncoding("utf8");
-
-console.log("Press any key to exit...");
-
-process.stdin.on("data", () => {
-  process.exit(0);
-});
+// process.stdin.setRawMode(true);
+// process.stdin.resume();
+// process.stdin.setEncoding("utf8");
+//
+// console.log("Press any key to exit...");
+//
+// process.stdin.on("data", () => {
+//   process.exit(0);
+// });
