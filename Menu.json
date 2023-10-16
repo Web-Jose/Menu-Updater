@@ -11,7 +11,6 @@
       "Vegan Entrée": "Meatless Lover Pasta with Vegan Pepperoni",
       "Side": "Red Skinned Mashed Potatoes with Spinach",
       "Vegetable": "Sautéed Vegetable Medley",
-      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
@@ -40,7 +39,7 @@
       "Vegan Entrée": "Penne Pasta with Beyond Sausage and Marinara Sauce",
       "Side": "Cheesy Bread Sticks",
       "Vegetable": "Steamed Broccoli",
-      "Feature Station": "Wing Wednesday",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chicken Noodle Soup"
@@ -49,9 +48,10 @@
     "Dinner": {
       "Entrée 1": "Crispy Kung Pao Chicken",
       "Entrée 2": "Teriyaki Beef with Pineapple",
-      "Vegan Entrée": "Ginger Chicken",
+      "Vegan Entrée": "Ginger Chicken (mock)",
       "Side": "Soy Sauce Noodles",
-      "Vegetable": "Charred Broccoli"
+      "Vegetable": "Steamed Broccoli",
+      "Action Station": "Omelet Bar"
     },
     "Dessert": {
       "Specialty Dessert": "German Chocolate Cake"
@@ -69,7 +69,6 @@
       "Vegan Entrée": "Vegan Chicken Patty Sandwich",
       "Side": "Sidewinder Fries",
       "Vegetable": "Pacific Blend Vegetables",
-      "Feature Station": null,
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Tomato Basil Bisque"
@@ -80,7 +79,8 @@
       "Entrée 2": "Italian Herb Crusted Pork Loin",
       "Vegan Entrée": "Vegan Baked Beyond Beef Rigatoni with Soy Cheese",
       "Side": "Roasted Yukon Gold Potatoes",
-      "Vegetable": "Green Beans with Tomatoes and Garlic"
+      "Vegetable": "Charred Broccoli",
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Cheesecake with Berry Compote"
@@ -95,10 +95,10 @@
     },
     "Lunch": {
       "Entrée": "Mongolian Beef",
-      "Vegan Entrée": "Vegan Tofu and Broccoli BBQ",
+      "Vegan Entrée": "Vegan Tofu and Broccoli",
       "Side": "Bacon Fried Rice",
       "Vegetable": "Stir-Fry Vegetables",
-      "Feature Station": null,
+      "Feature Station": "Wing Wednesday",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Italian Wedding Soup"
@@ -109,7 +109,8 @@
       "Entrée 2": "Pesto Chicken Bruschetta",
       "Vegan Entrée": "Beyond Beef Ragu with Rotini",
       "Side": "Wild Rice Pilaf",
-      "Vegetable": "Fire Roasted Seasonal Vegetables"
+      "Vegetable": "Green Beans with Tomatoes and Garlic",
+      "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Tiramisu"
@@ -118,16 +119,16 @@
   "Thursday": {
     "Breakfast": {
       "Entrée": "Cowboy Scramble",
-      "Side 1": "French Toast Breakfast Sandwich with Egg, Sausage Patty, and Cheese on an English Muffin",
+      "Side 1": "French Toast",
       "Side 2": "Potato Triangles",
       "Protein": "Sliced Linguica Sausage"
     },
     "Lunch": {
       "Entrée": "Boneless Buffalo Wings",
-      "Vegan Entrée": "Vegan Meatballs",
+      "Vegan Entrée": "BBQ Vegan Meatballs",
       "Side": "Baked Three Cheese Macaroni",
-      "Vegetable": "Creole Vegetable Medley",
-      "Feature Station": null,
+      "Vegetable": "Roasted Cauliflower",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Vegetable Minestrone Soup"
@@ -138,7 +139,7 @@
       "Entrée 2": "Beef Ranchero",
       "Vegan Entrée": "Vegan Refried Bean Quesadillas",
       "Side": "Cilantro Lime Rice",
-      "Vegetable": "Buttered Corn on the Cob"
+      "Vegetable": "Fire Roasted Seasonal Vegetables"
     },
     "Dessert": {
       "Specialty Dessert": "Raspberry Cheesecake Chimichangas"
@@ -147,7 +148,7 @@
   "Friday": {
     "Breakfast": {
       "Entrée": "Denver Scramble",
-      "Side 1": "French Toast Tornado",
+      "Side 1": "Breakfast Sandwich with Egg, Sausage Patty, and Cheese on an English Muffin",
       "Side 2": "Country Diced Breakfast Potatoes",
       "Protein": "Thick Cut Bacon"
     },
@@ -156,7 +157,7 @@
       "Vegan Entrée": "Jambalaya with Vegan Sausage",
       "Side": "Creamy Cajun Pasta",
       "Vegetable": "Charred Bulldog Vegetable Blend",
-      "Feature Station": null,
+      "Feature Station": "Build-Your-Own-Burger",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "New England Clam Chowder"
@@ -167,7 +168,7 @@
       "Entrée 2": "Shrimp and Seafood Gumbo",
       "Vegan Entrée": "Vegan Dirty Rice Stuffed Bell Peppers",
       "Side": "Garlic Cajun Rice",
-      "Vegetable": "Fire Roasted Seasonal Vegetables"
+      "Vegetable": "Creole Vegetable Medley"
     },
     "Dessert": {
       "Specialty Dessert": "Churro Donuts"
@@ -185,7 +186,6 @@
       "Vegan Entrée": "Black Bean and Corn Enchiladas with Soy Cheese",
       "Side": "Mexican Rice",
       "Vegetable": "Squash Medley",
-      "Feature Station": null,
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Menudo"
@@ -196,7 +196,7 @@
       "Entrée 2": "BBQ Rib Tips",
       "Vegan Entrée": "Beyond Beef Sloppy Joes",
       "Side": "Scalloped Potatoes",
-      "Vegetable": "Creole Vegetable Medley"
+      "Vegetable": "Buttered Corn on the Cob"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
