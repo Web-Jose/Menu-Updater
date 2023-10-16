@@ -14,7 +14,7 @@
       "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Chef's Choice"
+        "Soup Option 2": "Chef's Choice Chicken Noodle Soup"
       }
     },
     "Dinner": {
@@ -43,13 +43,13 @@
       "Feature Station": "Wing Wednesday",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Chicken Noodle Soup"
+        "Soup Option 2": "Tomato Basil Bisque"
       }
     },
     "Dinner": {
       "Entrée 1": "Crispy Kung Pao Chicken",
       "Entrée 2": "Teriyaki Beef with Pineapple",
-      "Vegan Entrée": "Ginger Chicken",
+      "Vegan Entrée": "Ginger Chicken (mock)",
       "Side": "Soy Sauce Noodles",
       "Vegetable": "Charred Broccoli"
     },
@@ -69,10 +69,10 @@
       "Vegan Entrée": "Vegan Chicken Patty Sandwich",
       "Side": "Sidewinder Fries",
       "Vegetable": "Pacific Blend Vegetables",
-      "Feature Station": null,
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Tomato Basil Bisque"
+        "Soup Option 2": "Italian Wedding Soup"
       }
     },
     "Dinner": {
@@ -98,10 +98,10 @@
       "Vegan Entrée": "Vegan Tofu and Broccoli BBQ",
       "Side": "Bacon Fried Rice",
       "Vegetable": "Stir-Fry Vegetables",
-      "Feature Station": null,
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Italian Wedding Soup"
+        "Soup Option 2": "Vegetable Minestrone Soup"
       }
     },
     "Dinner": {
@@ -127,10 +127,10 @@
       "Vegan Entrée": "Vegan Meatballs",
       "Side": "Baked Three Cheese Macaroni",
       "Vegetable": "Creole Vegetable Medley",
-      "Feature Station": null,
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Vegetable Minestrone Soup"
+        "Soup Option 2": "New England Clam Chowder"
       }
     },
     "Dinner": {
@@ -156,10 +156,10 @@
       "Vegan Entrée": "Jambalaya with Vegan Sausage",
       "Side": "Creamy Cajun Pasta",
       "Vegetable": "Charred Bulldog Vegetable Blend",
-      "Feature Station": null,
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "New England Clam Chowder"
+        "Soup Option 2": "Menudo"
       }
     },
     "Dinner": {
@@ -185,10 +185,10 @@
       "Vegan Entrée": "Black Bean and Corn Enchiladas with Soy Cheese",
       "Side": "Mexican Rice",
       "Vegetable": "Squash Medley",
-      "Feature Station": null,
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Menudo"
+        "Soup Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
@@ -196,7 +196,7 @@
       "Entrée 2": "BBQ Rib Tips",
       "Vegan Entrée": "Beyond Beef Sloppy Joes",
       "Side": "Scalloped Potatoes",
-      "Vegetable": "Creole Vegetable Medley"
+      "Vegetable": "Fire Roasted Seasonal Vegetables"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
