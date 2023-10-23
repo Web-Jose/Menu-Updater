@@ -1,7 +1,7 @@
 name: Scheduled Commit and Push
 on:
   schedule:
-    # Schedule for every Sunday at 2 AM PST
+    # Schedule for every Sunday at 9:30 AM PST
     - cron: "30 9 * * 0"
 
 jobs:
