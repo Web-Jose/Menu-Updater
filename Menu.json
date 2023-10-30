@@ -11,6 +11,7 @@
       "Vegan Entrée": "Sweet and Sour Tofu",
       "Side": "Roasted Broccoli and Cauliflower",
       "Vegetable": "Egg and Scallion Fried Rice",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
@@ -39,7 +40,7 @@
       "Vegan Entrée": "Tofu Cacciatore",
       "Side": "Steamed Mixed Vegetables",
       "Vegetable": "Chardonnay Artichoke Pasta",
-      "Feature Station": "Pizza",
+      "Feature Station": "Taco Tuesday",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chicken Noodle Soup"
@@ -50,8 +51,7 @@
       "Entrée 2": "Chicken Parmesan",
       "Vegan Entrée": "Vegan Pasta Carbonara",
       "Side": "Buttered Noodles",
-      "Vegetable": "Charred Brussels Sprouts",
-      "Action Station": "Omelet Bar"
+      "Vegetable": "Charred Brussels Sprouts"
     },
     "Dessert": {
       "Specialty Dessert": "Black Forrest Cake"
@@ -69,7 +69,7 @@
       "Vegan Entrée": "Teriyaki Crispy Tofu",
       "Side": "Stir-Fry Vegetables",
       "Vegetable": "Fried Brown Rice",
-      "Feature Station": "Taco Tuesday",
+      "Feature Station": "Build-Your-Own-Burger",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Tomato Basil Bisque"
@@ -80,8 +80,7 @@
       "Entrée 2": "Montreal Grilled Chicken with Chimichurri Sauce",
       "Vegan Entrée": "Stuffed Portobello Mushrooms with Couscous",
       "Side": "Rice Pilaf with Orzo",
-      "Vegetable": "Buttered Corn",
-      "Action Station": "Pasta Bar"
+      "Vegetable": "Buttered Corn"
     },
     "Dessert": {
       "Specialty Dessert": "Pound Cake with Strawberries"
@@ -99,7 +98,7 @@
       "Vegan Entrée": "Spaghetti and Vegan Meatballs and Basil Marinara Sauce",
       "Side": "Sautéed Green Beans with Onions and Garlic",
       "Vegetable": "French Bread Cheese Pizza",
-      "Feature Station": "Build-Your-Own-Burger",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Italian Wedding"
@@ -139,8 +138,7 @@
       "Entrée 2": "Chicken Fried Steak with Brown Gravy",
       "Vegan Entrée": "Vegetable Stew with Butternut Squash",
       "Side": "Garlic Mashed Potatoes",
-      "Vegetable": "Roasted Carrots",
-      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
+      "Vegetable": "Roasted Carrots"
     },
     "Dessert": {
       "Specialty Dessert": "Fried Raspberry Chimichangas"
@@ -156,8 +154,9 @@
     "Lunch": {
       "Entrée": "Crunchy Beef Tacos",
       "Vegan Entrée": "Vegan Enchiladas with Soy Cheese",
-      "Side": "Spanish Rice",
-      "Vegetable": "Corn on the Cob",
+      "Side": "Corn on the Cob",
+      "Vegetable": "Sautéed Squash Medley",
+      "Feature Station": "Taco Tuesday",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "New England Clam Chowder"
@@ -168,7 +167,7 @@
       "Entrée 2": "Chile Colorado",
       "Vegan Entrée": "Stuffed Bell Peppers with Chipotle Quinoa",
       "Side": "Mexican Rice with Peas",
-      "Vegetable": "Sautéed Squash Medley"
+      "Vegetable": "Peas with Pearl Onions"
     },
     "Dessert": {
       "Specialty Dessert": "Chocolate Cake"
@@ -182,21 +181,22 @@
       "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
-      "Entrée": "Beef Kabobs with Demi Glaze",
-      "Vegan Entrée": "Philly Mushroom Steak with Soy Cheese",
-      "Side": "Rice Pilaf with Angel Hair",
-      "Vegetable": "Roasted Cauliflower",
+      "Entrée": "Salisbury Steak with Mushroom Gravy",
+      "Vegan Entrée": "Baked Polenta with Soy Cheese",
+      "Side": "Cheesy Scalloped Potatoes",
+      "Vegetable": "Peas with Pearl Onions",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
-      "Entrée 1": "Salisbury Steak with Mushroom Gravy",
-      "Entrée 2": "Tortilla Crusted Tilapia",
-      "Vegan Entrée": "Baked Polenta with Soy Cheese",
-      "Side": "Cheesy Scalloped Potatoes",
-      "Vegetable": "Peas with Pearl Onions"
+      "Entrée 1": "Tortilla Crusted Tilapia",
+      "Entrée 2": "Chicken Fried Steak with Brown Gravy",
+      "Vegan Entrée": "Vegetable Sautéed Fresh Green Beans",
+      "Side": "Garlic Mashed Potatoes",
+      "Vegetable": "Roasted Carrots"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
