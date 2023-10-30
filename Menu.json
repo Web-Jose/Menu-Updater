@@ -11,7 +11,6 @@
       "Vegan Entrée": "Tofu Piccata with Lemon Caper Sauce",
       "Side": "Roasted Bulldog Vegetable Blend",
       "Vegetable": "Rice Pilaf with Angel Hair",
-      "Feature Station": "Build-Your-Own Burger",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
@@ -22,11 +21,7 @@
       "Entrée 2": "Pepper Steak",
       "Vegan Entrée": "Kung Pao Tofu",
       "Side": "Steamed Jasmine Rice",
-      "Vegetable": "Steamed Broccoli",
-      "Soup Station": {
-        "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Chef's Choice"
-      }
+      "Vegetable": "Steamed Broccoli and Carrots"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
@@ -44,7 +39,7 @@
       "Vegan Entrée": "Sundried Tomato and Spinach Pasta Bake",
       "Side": "Crispy Green Beans",
       "Vegetable": "Garlic French Fries",
-      "Feature Station": "Pizza",
+      "Feature Station": "Build-Your-Own Burger",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Italian Minestrone Soup"
@@ -55,7 +50,8 @@
       "Entrée 2": "Garlic Roasted Pork Loin",
       "Vegan Entrée": "Vegan Dirty Rice",
       "Side": "Garlic Mashed Potatoes",
-      "Vegetable": "Roasted Cauliflower"
+      "Vegetable": "Roasted Cauliflower",
+      "Action Station": "Omelet Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Chocolate Cake"
@@ -70,10 +66,10 @@
     },
     "Lunch": {
       "Entrée": "Chicken Pot Pie",
-      "Vegan Entrée": "Vegan Refried Bean Quesadillas",
+      "Vegan Entrée": "Vegan Tofu Katsu",
       "Side": "Corn on the Cob",
       "Vegetable": "Au Gratin Potatoes",
-      "Feature Station": "Pho Bar",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Hot and Sour Soup"
@@ -82,9 +78,10 @@
     "Dinner": {
       "Entrée 1": "Baked Cod with Chipotle Pesto Sauce",
       "Entrée 2": "Rosemary and Garlic Tri-Tip",
-      "Vegan Entrée": "Stuffed Bell Peppers",
+      "Vegan Entrée": "Tofu Burnt Ends",
       "Side": "Rice Pilaf",
-      "Vegetable": "Steamed California Vegetable Blend"
+      "Vegetable": "Steamed California Vegetable Blend",
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Tapioca Pudding Cups"
@@ -95,14 +92,13 @@
       "Entrée": "Cheesy Scramble with Chives",
       "Side 1": "Hash Browns",
       "Side 2": "Buttermilk Biscuits and Country Gravy",
-      "Protein": "Sliced Linguiça"
+      "Protein": "Breakfast Sausage Links"
     },
     "Lunch": {
       "Entrée": "Beef Fajitas with Flour Tortilla",
-      "Vegan Entrée": "Penne Pasta with Spinach Pesto Sauce",
+      "Vegan Entrée": "Vegan Refried Bean Quesadillas",
       "Side": "Fire Roasted Corn and Black Beans",
       "Vegetable": "Spanish Rice with Peas",
-      "Feature Station": "Soup Station",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Broccoli and Cheese Soup"
@@ -111,9 +107,10 @@
     "Dinner": {
       "Entrée 1": "Country Fried Chicken",
       "Entrée 2": "Pot Roast",
-      "Vegan Entrée": "Tofu Burnt Ends",
+      "Vegan Entrée": "Vegan Crumble Stroganoff",
       "Side": "Fully Loaded Mashed Potatoes",
-      "Vegetable": "Buttered Corn"
+      "Vegetable": "Buttered Corn",
+      "Action Station": "Sizzling Salad"
     },
     "Dessert": {
       "Specialty Dessert": "Funnel Fries"
@@ -128,10 +125,10 @@
     },
     "Lunch": {
       "Entrée": "Grilled Herb Chicken Strips",
-      "Vegan Entrée": "Crispy Salt and Pepper Tofu",
+      "Vegan Entrée": "Penné Pasta with Spinach Pesto Sauce",
       "Side": "Charred Broccoli",
       "Vegetable": "Fettucine with Pesto Alfredo Sauce",
-      "Feature Station": "Ice Cream Sundae Bar and Stir-Fry Bar",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Tomato Florentine Soup"
@@ -142,7 +139,8 @@
       "Entrée 2": "Chicken Caprese with Balsamic Drizzle",
       "Vegan Entrée": "Garlic and Orzo Stuffed Tomatoes",
       "Side": "Penne Pasta with Pink Sauce",
-      "Vegetable": "Italian Green Beans with Tomatoes"
+      "Vegetable": "Italian Green Beans with Tomatoes",
+      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Triple Berry Crumble"
@@ -157,10 +155,10 @@
     },
     "Lunch": {
       "Entrée": "General Tso Chicken",
-      "Vegan Entrée": "Vegan Crumble Stroganoff",
+      "Vegan Entrée": "Crispy Salt and Pepper Tofu",
       "Side": "Stir-Fry Vegetables",
       "Vegetable": "Vegetable Chow Mein",
-      "Feature Station": "Chef's Choice",
+      "Feature Station": "Pho Bar",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Boston Clam Chowder"
@@ -186,9 +184,9 @@
     },
     "Lunch": {
       "Entrée": "Pulled Pork Sandwich",
-      "Vegan Entrée": "Baked Beyond Beef Rigatoni with Soy Cheese",
-      "Side": "Roasted Seasonal Vegetables",
-      "Vegetable": "Charred Broccoli",
+      "Vegan Entrée": "Grilled Mushroom Steak with Balasamic Glaze",
+      "Side": "White Cheddar Mac and Cheese",
+      "Vegetable": "Roasted Seasonal Vegetables",
       "Feature Station": "Chef's Choice",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
@@ -198,9 +196,9 @@
     "Dinner": {
       "Entrée 1": "Chicken Cacciatore",
       "Entrée 2": "Sliced Herb Roast Beef",
-      "Vegan Entrée": "Vegetable Steamed Broccoli and Carrots",
+      "Vegan Entrée": "Baked Beyond Beef Rigatoni with Soy Cheese",
       "Side": "Roasted Yukon Gold Potatoes",
-      "Vegetable": "Italian Green Beans with Tomatoes"
+      "Vegetable": "Charred Broccoli"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
