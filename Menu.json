@@ -3,7 +3,7 @@
     "Breakfast": {
       "Entrée": "Scrambled Egg with Pico de Gallo and Black Beans",
       "Side 1": "Potato Circles",
-      "Side 2": "French Toast",
+      "Side 2": "French Toast Sausage Tornado",
       "Protein": "Chorizo Patties"
     },
     "Lunch": {
@@ -11,7 +11,6 @@
       "Vegan Entrée": "Eggplant Roulade with Soy Mozzarella",
       "Side": "Mozzarella Cheese Bread",
       "Vegetable": "Crispy Cauliflower",
-      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
@@ -32,7 +31,7 @@
     "Breakfast": {
       "Entrée": "Denver Scramble",
       "Side 1": "Potato Triangles",
-      "Side 2": "Sausage Tornado",
+      "Side 2": "Sweet Cream Pancakes",
       "Protein": "Breakfast Sausage Links"
     },
     "Lunch": {
@@ -40,7 +39,7 @@
       "Vegan Entrée": "Panko Stuffed Tomatoes",
       "Side": "Garlic White Rice with Corn",
       "Vegetable": "Sautéed Zucchini with Onions",
-      "Feature Station": "Soup Station",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chicken Noodle Soup"
@@ -51,7 +50,8 @@
       "Entrée 2": "Chipotle Pesto Steak Bites",
       "Vegan Entrée": "Eggplant Parmesan Lasagna with Soy Cheese",
       "Vegetable": "Sautéed Green Beans with Onions and Pepper",
-      "Side": "Linguine with Lemon Cream Sauce"
+      "Side": "Linguine with Lemon Cream Sauce",
+      "Action Station": "Omelet Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
@@ -61,7 +61,7 @@
     "Breakfast": {
       "Entrée": "Spinach, Sausage and Mushroom Scramble",
       "Side 1": "Country Diced Breakfast Potatoes",
-      "Side 2": "Sweet Cream Pancakes",
+      "Side 2": "French Toast Sticks",
       "Protein": "Italian Sausage"
     },
     "Lunch": {
@@ -80,7 +80,8 @@
       "Entrée 2": "Wet Burrito Casserole with Shredded Beef",
       "Vegan Entrée": "Vegan Charro Beans with Beyond Beef Crumble",
       "Vegetable": "Mixed Seasonal Vegetables",
-      "Side": "Spanish Rice"
+      "Side": "Spanish Rice",
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
@@ -90,15 +91,14 @@
     "Breakfast": {
       "Entrée": "Broccoli and Cheese Scramble",
       "Side 1": "Hash Browns",
-      "Side 2": "French Toast Sticks",
+      "Side 2": "Buscuit and Gravy",
       "Protein": "Maple Sausage Patty"
     },
     "Lunch": {
       "Entrée": "Philly Cheesesteak Sandwich",
-      "Vegan Entrée": "BB Q Glazed Portobello Sandwich",
+      "Vegan Entrée": "BBQ Glazed Portobello Sandwich",
       "Side": "Curly Fries",
       "Vegetable": "Roasted Maple Carrots",
-      "Feature Station": "Chef's Choice",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Italian Wedding Soup"
@@ -117,49 +117,47 @@
   },
   "Thursday": {
     "Breakfast": {
-      "Entrée": "Closed",
-      "Side 1": "Closed",
-      "Side 2": "Closed",
-      "Protein": "Closed"
+      "Entrée": "Chef's Choice",
+      "Side 1": "Chef's Choice",
+      "Side 2": "Chef's Choice",
+      "Protein": "Chef's Choice"
     },
     "Lunch": {
-      "Entrée": "Closed",
-      "Vegan Entrée": "Closed",
-      "Side": "Closed",
-      "Vegetable": "Closed",
-      "Feature Station": "Closed",
+      "Entrée": "Chef's Choice",
+      "Vegan Entrée": "Chef's Choice",
+      "Side": "Chef's Choice",
+      "Vegetable": "Chef's Choice",
       "Soup Station": {
-        "Soup Option 1": "Closed",
-        "Soup Option 2": "Closed"
+        "Soup Option 1": "Chef's Choice",
+        "Soup Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
-      "Entrée 1": "Closed",
-      "Entrée 2": "Closed",
-      "Vegan Entrée": "Closed",
-      "Vegetable": "Closed",
-      "Side": "Closed"
+      "Entrée 1": "Chef's Choice",
+      "Entrée 2": "Chef's Choice",
+      "Vegan Entrée": "Chef's Choice",
+      "Vegetable": "Chef's Choice",
+      "Side": "Chef's Choice"
     },
     "Dessert": {
-      "Specialty Dessert": "Closed"
+      "Specialty Dessert": "Chef's Choice"
     }
   },
   "Friday": {
     "Breakfast": {
-      "Entrée": "Side 1",
-      "Side 1": "Side 2",
-      "Side 2": "Protein",
-      "Protein": "Closed"
+      "Entrée": "Chef's Choice",
+      "Side 1": "Chef's Choice",
+      "Side 2": "Chef's Choice",
+      "Protein": "Chef's Choice"
     },
     "Lunch": {
-      "Entrée": "Closed",
-      "Vegan Entrée": "Closed",
-      "Side": "Closed",
-      "Vegetable": "Closed",
-      "Feature Station": "Closed",
+      "Entrée": "Chef's Choice",
+      "Vegan Entrée": "Chef's Choice",
+      "Side": "Chef's Choice",
+      "Vegetable": "Chef's Choice",
       "Soup Station": {
-        "Soup Option 1": "Closed",
-        "Soup Option 2": "Closed"
+        "Soup Option 1": "Chef's Choice",
+        "Soup Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
