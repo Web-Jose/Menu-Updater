@@ -10,7 +10,7 @@ const openai = new OpenAIApi(configuration);
 // Function to format the date as YYYY-MM-DD
 function formatDate(date) {
   const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const month = String(date.getMonth() + 1);
   const day = String(date.getDate());
   return `${year}-${month}-${day}`;
 }
