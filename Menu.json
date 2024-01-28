@@ -11,6 +11,7 @@
       "Vegan Entrée": "Vegan Soyrizo and Bean Tostadas",
       "Side": "Cilantro Lime Rice",
       "Vegetable": "Charred Squash Medley",
+      "Feature Station": "Build-Your-Own-Burger",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
@@ -21,8 +22,7 @@
       "Entrée 2": "Smothered Pork Chops",
       "Vegan Entrée": "Vegan Chili Mac with Vegan Crumble and Kidney Beans",
       "Side": "Red Skinned Mashed Potatoes",
-      "Vegetable": "Oven Baked Root Vegetables",
-      "Action Station": "Pizza"
+      "Vegetable": "Oven Baked Root Vegetables"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
@@ -40,10 +40,10 @@
       "Vegan Entrée": "Vegan Roasted Tomato Spaghetti with Spinach and Chickpeas",
       "Side": "Parmesan Potatoes",
       "Vegetable": "Roasted Bulldog Blend with Balsamic Drizzle",
-      "Feature Station": "Build-Your-Own-Burger",
+      "Feature Station": "Taco Tuesday",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Italian Minestrone Soup"
+        "Soup Option 2": "Chicken Noodle Soup"
       }
     },
     "Dinner": {
@@ -51,8 +51,7 @@
       "Entrée 2": "Wet Burrito Casserole with Shredded Beef",
       "Vegan Entrée": "Vegan Hearty Charro Beans with Beyond Beef Crumble",
       "Side": "Spanish Rice",
-      "Vegetable": "Sautéed Mixed Vegetables",
-      "Action Station": "Omelet Bar"
+      "Vegetable": "Sautéed Mixed Vegetables"
     },
     "Dessert": {
       "Specialty Dessert": "New York Cheesecake"
@@ -70,10 +69,10 @@
       "Vegan Entrée": "Vegan Teriyaki Tofu with Pineapple",
       "Side": "Scallion Fried Rice",
       "Vegetable": "Steamed Seasonal Vegetables",
-      "Feature Station": "Taco Tuesday",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Chicken Noodle Soup"
+        "Soup Option 2": "Broccoli and Cheese Soup"
       }
     },
     "Dinner": {
@@ -81,8 +80,7 @@
       "Entrée 2": "Chipotle Pesto Steak Bites",
       "Vegan Entrée": "Vegan Eggplant Parmesan Lasagna with Soy Cheese",
       "Side": "Linguine with Lemon Cream Sauce",
-      "Vegetable": "Sautéed Green Beans with Onions and Pepper",
-      "Action Station": "Pasta Bar"
+      "Vegetable": "Sautéed Green Beans with Onions and Pepper"
     },
     "Dessert": {
       "Specialty Dessert": "Red Velvet Cake"
@@ -97,13 +95,13 @@
     },
     "Lunch": {
       "Entrée": "Spicy Chicken Sandwich",
-      "Vegan Entrée": "Vegan BBQ Glazed Portobello Mushroom Steak",
+      "Vegan Entrée": "Vegan B BQ Glazed Portobello Mushroom Steak",
       "Side": "Garlic Fries",
       "Vegetable": "Oven Roasted Maple Carrots",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Broccoli and Cheese Soup"
+        "Soup Option 2": "Tomato Florentine Soup"
       }
     },
     "Dinner": {
@@ -111,8 +109,7 @@
       "Entrée 2": "Herb and Parmesan Crusted Pork Loin",
       "Vegan Entrée": "Vegan Kale and Beyond Sausage Pasta",
       "Side": "Creamy Pesto Spaghetti with Charred Tomatoes",
-      "Vegetable": "Italian Roasted Vegetables",
-      "Action Station": "Sizzling Salad Bar"
+      "Vegetable": "Italian Roasted Vegetables"
     },
     "Dessert": {
       "Specialty Dessert": "Apple Pie"
@@ -128,11 +125,12 @@
     "Lunch": {
       "Entrée": "Pork Chile Verde with Flour Tortillas",
       "Vegan Entrée": "Vegan Panko Stuffed Tomatoes",
-      "Side": "Garlic White Rice with Corn",
+      "Side": "White Cheddar Mac and Cheese",
       "Vegetable": "Sautéed Zucchini with Onions",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Tomato Florentine Soup"
+        "Soup Option 2": "Boston Clam Chowder"
       }
     },
     "Dinner": {
@@ -140,8 +138,7 @@
       "Entrée 2": "Beef and Broccoli",
       "Vegan Entrée": "Vegan Salt and Pepper Tofu",
       "Side": "Steamed Jasmine Rice",
-      "Vegetable": "Sautéed Garlic Green Greens",
-      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
+      "Vegetable": "Braised Cabbage with Brown Sugar"
     },
     "Dessert": {
       "Specialty Dessert": "Peach Cobbler"
@@ -156,20 +153,20 @@
     },
     "Lunch": {
       "Entrée": "Honey Stung Fried Chicken",
-      "Vegan Entrée": "Vegan Crispy Buffalo Cauliflower Bites",
-      "Side": "White Cheddar Mac and Cheese",
-      "Vegetable": "Braised Cabbage with Brown Sugar",
+      "Vegan Entrée": "Vegan Hearty Beyond Beef Chili Beans",
+      "Side": "Rice Pilaf with Orzo",
+      "Vegetable": "Crispy Broccolini",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Boston Clam Chowder"
+        "Soup Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
       "Entrée 1": "Santa Maria Tri-Tip",
       "Entrée 2": "Brown Sugar Glazed Chicken",
-      "Vegan Entrée": "Vegan Hearty Beyond Beef Chili Beans",
-      "Side": "Rice Pilaf with Orzo",
+      "Vegan Entrée": "Vegan Curry Stew",
+      "Side": "Steamed Basmati Rice",
       "Vegetable": "Corn on the Cob"
     },
     "Dessert": {
@@ -180,14 +177,14 @@
     "Breakfast": {
       "Entrée": "Chorizo and Eggs",
       "Side 1": "Diced Potatoes with Green Chilies",
-      "Side 2": "Homemade Breakfast Burritos with Eggs, Potatoes, and Cheese",
+      "Side 2": "French Toast",
       "Protein": "Sliced Linguica"
     },
     "Lunch": {
       "Entrée": "Chicken, Asparagus, and Sweet Pea Pasta",
-      "Vegan Entrée": "Vegan Eggplant Roulade with Soy Mozzarella",
-      "Side": "Mozzarella Cheese Bread",
-      "Vegetable": "Crispy Broccolini",
+      "Vegan Entrée": "Vegan Curry Stew",
+      "Side": "Steamed Basmati Rice",
+      "Vegetable": "Oven Roasted Mediterranean Vegetables",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
@@ -199,7 +196,7 @@
       "Entrée 2": "Beef Shawarma with Naan",
       "Vegan Entrée": "Vegan Curry Stew",
       "Side": "Steamed Basmati Rice",
-      "Vegetable": "Oven Roasted Mediterranean Vegetables"
+      "Vegetable": "Sautéed Garlic Green Greens"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
