@@ -1,23 +1,23 @@
-# Guide to using 'Weekly Dining Hall Menu Updater'
+# Guide to using 'Weekly Dining Hall Menu Updater' 🍴
 
-## Overview
+## Overview 📝
 
 The **Weekly Dining Hall Menu Updater** is a project designed to automatically update the [Dining Hall Menu](https://fresnostatehousing.org/dining-hall-menu/) page on the Fresno State Housing website by fetching the current week's menu from the [Fresno State University Dining Services](https://auxiliary.fresnostate.edu/association/dining/dining-hall/dining-menus.html) page, parsing it into a JSON object, and then uploading it to the Housing website's database. The project is divided into multiple components, including fetching the menu PDF, converting it to JSON using the ChatGPT API, and updating the website's database with the new menu data. The project is designed to be run as a cron job, but it can also be run manually. It is also designed to work specifically with the Fresno State Housing website and the [Pods Framework](https://wordpress.org/plugins/pods/), but it can be modified to work with other websites that use [WordPress.org](https://wordpress.org/).
 
-## Table of Contents
+## Table of Contents 📚
 
-1. [Overview](#overview)
-2. [Table of Contents](#table-of-contents)
-3. [Before You Begin](#before-you-begin)
-4. [How to Use](#how-to-use)
-5. [Fully Autonomizing the Process](#fully-autonomizing-the-process)
-6. [How it Works](#how-it-works)
-7. [Future Plans](#future-plans)
-8. [Resources](#resources)
-9. [Credits](#credits)
-10. [Conclusion](#conclusion)
+1. [Overview](#overview-)
+2. [Table of Contents](#table-of-contents-)
+3. [Before You Begin](#before-you-begin-)
+4. [How to Use](#how-to-use-)
+5. [Fully Autonomizing the Process](#fully-autonomizing-the-process-)
+6. [How it Works](#how-it-works-)
+7. [Future Plans](#future-plans-)
+8. [Resources](#resources-)
+9. [Credits](#credits-)
+10. [Conclusion](#conclusion-)
 
-## Before You Begin
+## Before You Begin 🚀
 
 Before you begin using the **Weekly Dining Hall Menu Updater**, you will need to have or install the following your computer:
 
@@ -71,11 +71,9 @@ Before you begin using the **Weekly Dining Hall Menu Updater**, you will need to
 - [WP Crontrol Plugin (Cron Job)](https://wordpress.org/plugins/wp-crontrol/)
   - If you want to update the **Dining_Hall_menu** pod as a cron job, you'll need to have the WP Crontrol plugin installed on your website. You can install the WP Crontrol plugin by following the instructions here: <https://wordpress.org/plugins/wp-crontrol/>
 
-## How to Use
+## How to Use 📖
 
 Follow the steps below to use the **Weekly Dining Hall Menu Updater** to update the [Dining Hall Menu](https://fresnostatehousing.org/dining-hall-menu/) page:
-
-<!-- I want to write a detailed guide-->
 
 1. Clone the repository to your computer.
 
@@ -88,7 +86,7 @@ Follow the steps below to use the **Weekly Dining Hall Menu Updater** to update 
    - If you don't have Git installed, you can download the repository as a ZIP file by clicking the green **Code** button at the top of the repository page and then clicking **Download ZIP**. Once the ZIP file has finished downloading, extract the files to your computer.
 
 2. Set up Node.js and the required Node.js packages.
-   - If you haven't already, install Node.js and the required Node.js packages by following the instructions in the [Before You Begin](#before-you-begin) section.
+   - If you haven't already, install Node.js and the required Node.js packages by following the instructions in the [Before You Begin](#before-you-begin-) section.
 3. Replace the **OPENAI_API_KEY** in the **Menu_PDF_To_JSON.js** file with your own API key.
    - You can find your API key on the [OpenAI platform](https://platform.openai.com/account/api-keys).
 4. Run the **Menu_PDF_To_JSON.js** file using Node.js.
@@ -123,7 +121,7 @@ Follow the steps below to use the **Weekly Dining Hall Menu Updater** to update 
    - If the **Menu_PDF_To_JSON.js** file is working properly, check the **functions.php** file to make sure it is working properly.
    - Ensure that the variables and field names used in the **Menu_PDF_To_JSON.js** file and the **functions.php** file match the variables and field names used in your website's database.
 
-## Fully Autonomizing the Process
+## Fully Autonomizing the Process 🤖
 
 If you want to fully autonomize the process, you can create and run a .bat file to automatically run the **Menu_PDF_To_JSON.js** file every week. To do this, follow the steps below:
 
@@ -194,9 +192,9 @@ If you want to fully autonomize the process, you can create and run a .bat file 
 5. Replace the **user.name** and **user.email** in the previous code with your own name and email.
 6. Save the file.
 
-## How it Works
+## How it Works 🛠️
 
-This is a deep dive into the code of the **Weekly Dining Hall Menu Updater**. If you're not interested in the code, you can skip to the [Future Plans](#future-plans) section.
+This is a deep dive into the code of the **Weekly Dining Hall Menu Updater**. If you're not interested in the code, you can skip to the [Future Plans](#future-plans-) section.
 
 ### Menu_PDF_To_JSON.js
 
@@ -526,11 +524,11 @@ The **functions.php** file is responsible for updating the Pods database of the 
     }
     ```
 
-## Future Plans
+## Future Plans 📅
 
 - [ ] Eliminate the need for Github Actions by adding git commands to the .bat file.
 
-## Resources
+## Resources 📦
 
 - [Node.js](https://nodejs.org/en/)
 - [Axios](https://www.npmjs.com/package/axios)
@@ -544,10 +542,14 @@ The **functions.php** file is responsible for updating the Pods database of the 
 - [WP Crontrol](https://wordpress.org/plugins/wp-crontrol/)
 - [GitHub Actions](https://docs.github.com/en/actions)
 
-## Credits
+## Credits 🎉
 
 - [Jose Cortes](https://github.com/Web-Jose) - Project Creator, Developer, and Maintainer.
 
-## Conclusion
+## License 📜
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Conclusion 🎬
 
 Thank you for reading this guide. I hope you found it helpful. If you have any questions, comments, or suggestions, please feel free to contact me at <JoseHCortes02@gmail.com>.
