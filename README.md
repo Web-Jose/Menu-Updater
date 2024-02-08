@@ -11,7 +11,7 @@ The **Weekly Dining Hall Menu Updater** is a project designed to automatically u
 3. [Before You Begin](#before-you-begin-)
 4. [How to Use](#how-to-use-)
 5. [Fully Autonomizing the Process](#fully-autonomizing-the-process-)
-6. [How it Works](#how-it-works-)
+6. [How it Works](#how-it-works-%EF%B8%8F)
 7. [Future Plans](#future-plans-)
 8. [Resources](#resources-)
 9. [Credits](#credits-)
