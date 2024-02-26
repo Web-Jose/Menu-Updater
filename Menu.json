@@ -2,10 +2,8 @@
   "Sunday": {
     "Breakfast": {
       "Entrée": "Southwestern Strata with Bacon and Potatoes",
-      "Sides": {
-        "Side 1": "Tater Tots",
-        "Side 2": "Blueberry Pancakes"
-      },
+      "Side 1": "Tater Tots",
+      "Side 2": "Blueberry Pancakes",
       "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
@@ -33,10 +31,8 @@
   "Monday": {
     "Breakfast": {
       "Entrée": "Fiesta Scrambled Eggs",
-      "Sides": {
-        "Side 1": "Potato Circles",
-        "Side 2": "French Toast Sticks"
-      },
+      "Side 1": "Potato Circles",
+      "Side 2": "French Toast Sticks",
       "Protein": "Sliced Lingucia"
     },
     "Lunch": {
@@ -64,10 +60,8 @@
   "Tuesday": {
     "Breakfast": {
       "Entrée": "Ham and Cheese Scramble",
-      "Sides": {
-        "Side 1": "Dice Country Potatoes",
-        "Side 2": "Sweet Cream Pancakes"
-      },
+      "Side 1": "Dice Country Potatoes",
+      "Side 2": "Sweet Cream Pancakes",
       "Protein": "Sliced Italian Sausage"
     },
     "Lunch": {
@@ -95,10 +89,8 @@
   "Wednesday": {
     "Breakfast": {
       "Entrée": "Cheesy Scramble with Chives",
-      "Sides": {
-        "Side 1": "Hash Browns",
-        "Side 2": "French Toast"
-      },
+      "Side 1": "Hash Browns",
+      "Side 2": "French Toast",
       "Protein": "Breakfast Sausage Links"
     },
     "Lunch": {
@@ -126,10 +118,8 @@
   "Thursday": {
     "Breakfast": {
       "Entrée": "Chorizo and Eggs",
-      "Sides": {
-        "Side 1": "Crispy Breakfast Potatoes",
-        "Side 2": "Cheese Quesadilla"
-      },
+      "Side 1": "Crispy Breakfast Potatoes",
+      "Side 2": "Cheese Quesadilla",
       "Protein": "Refried Beans with Cheese"
     },
     "Lunch": {
@@ -157,10 +147,8 @@
   "Friday": {
     "Breakfast": {
       "Entrée": "Cowboy Scramble with Sausage",
-      "Sides": {
-        "Side 1": "Tater Tots",
-        "Side 2": "Biscuits and Gravy"
-      },
+      "Side 1": "Tater Tots",
+      "Side 2": "Biscuits and Gravy",
       "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
@@ -188,10 +176,8 @@
   "Saturday": {
     "Breakfast": {
       "Entrée": "Denver Scramble",
-      "Sides": {
-        "Side 1": "Potato Triangles",
-        "Side 2": "Sausage and Egg Biscuit"
-      },
+      "Side 1": "Potato Triangles",
+      "Side 2": "Sausage and Egg Biscuit",
       "Protein": "Sausage Patties"
     },
     "Lunch": {
