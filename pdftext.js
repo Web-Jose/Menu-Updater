@@ -48,7 +48,7 @@ async function fetchAndExtractText() {
     });
     const data = response.data;
     const pdf = await PDFParser(data);
-    let text = pdf.text.replace(/\s+/g, " "); // Replace multiple spaces with a single space
+    let text = pdf.text.replace(/\s+/g, ", "); // Replace multiple spaces with a single space
     text = text.replace(targetText, ""); // Remove the target text
     text = text.replace(/(\w)([A-Z])/g, "$1 $2"); // Add space between words and capital letters
     text = text.replace(/(\d{4})(\d{1,2})/g, "$1 $2"); // Add space after the fourth digit for 5 or 6-digit numbers
