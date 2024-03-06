@@ -11,7 +11,7 @@ async function fetchAndExtractText() {
   try {
     // Note: await is used to wait for the promise to resolve
     const link =
-      "https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2024-2-23.pdf";
+      "https://auxiliary.fresnostate.edu/association/dining/documents/rdh_menus/menu-2024-3-3.pdf";
     const response = await axios.get(link, {
       responseType: "arraybuffer",
     });

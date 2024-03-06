@@ -37,7 +37,11 @@ function generateLink() {
 
 console.log(generateLink());
 
-const targetText = `University Dining Services makes every effort to ensure the items listed on our menus are up to date and correct. However, the items listed are not a guarantee and are subject to change without notice Dinner Action Stations are available from 4pm-7pm, or until the special runs out Lunch Feature Stations are available from 11am-2pm, or until the special runs out Please also see our Fixed Menu for the complete list of items we carry each day`;
+const statement1 = `University Dining Services makes every effort to ensure the items listed on our menus are up to date and correct. However, the items listed are not a guarantee and are subject to change without notice`;
+const statement2 = `Dinner Action Stations are available from 4pm-7pm, or until the special runs out`;
+const statement3 = `Lunch Feature Stations are available from 11am-2pm, or until the special runs out`;
+const statement4 = `Please also see our Fixed Menu for the complete list of items we carry each day`;
+const statement5 = `University Dining Hall - Weekly Menu`;
 
 // Function to fetch the PDF and extract text
 async function fetchAndExtractText() {
@@ -48,11 +52,15 @@ async function fetchAndExtractText() {
     });
     const data = response.data;
     const pdf = await PDFParser(data);
-    let text = pdf.text.replace(/\s+/g, ", "); // Replace multiple spaces with a single space
-    text = text.replace(targetText, ""); // Remove the target text
-    text = text.replace(/(\w)([A-Z])/g, "$1 $2"); // Add space between words and capital letters
-    text = text.replace(/(\d{4})(\d{1,2})/g, "$1 $2"); // Add space after the fourth digit for 5 or 6-digit numbers
+    let text = pdf.text.replace(statement1, ""); // Remove the target text
+    text = text.replace(statement2, ""); // Remove the target text
+    text = text.replace(statement3, ""); // Remove the target text
+    text = text.replace(statement4, ""); // Remove the target text
+    text = text.replace(statement5, ""); // Remove the target text
     text = text.replace(/([a-zA-Z])(\d)/g, "$1 $2"); // Add space between letters and numbers
+    text = text.replace(/\s+/g, " "); // Replace multiple spaces with a space
+    text = text.replace(/(\d{4})(\d{1,2})/g, "$1 | $2"); // Add space after the fourth digit for 5 or 6-digit numbers
+    text = text.replace(/(\w)([A-Z])/g, "$1 | $2"); // Add space between words and capital letters
     console.log(text);
     return text;
   } catch (error) {
