@@ -2,192 +2,195 @@
   "Sunday": {
     "Breakfast": {
       "Entrée": "Scrambled Eggs with Pico de Gallo and Black Beans",
-      "Side 1": "Potato Circles",
-      "Side 2": "French Toast Tornados",
-      "Protein": "Chorizo Sausage Patties"
+      "Side 1": "Chorizo and Potatoes with Flour Tortillas",
+      "Side 2": "Sweet Cream Pancake",
+      "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
-      "Entrée": "Chicken Quesadillas",
-      "Vegan Entrée": "Vegan Soyrizo and Bean Tostadas",
-      "Side": "Cilantro Lime Rice",
-      "Vegetable": "Charred Squash Medley",
+      "Entrée": "Crispy Teriyaki Chicken",
+      "Vegan Entrée": "Vegan Teriyaki Chicken and Green Bean Stir-Fry",
+      "Vegetable": "Sautéed Mixed Seasonal Vegetables",
+      "Side": "Bacon Fried Rice",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
-      "Entrée 1": "Roasted Garlic Chicken",
-      "Entrée 2": "Smothered Pork Chops",
-      "Vegan Entrée": "Vegan Chili Mac with Vegan Crumble and Kidney Beans",
-      "Side": "Scalloped Potatoes",
-      "Vegetable": "Oven Baked Root Vegetables",
-      "Action Station": "Pizza"
-    },
-    "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+      "Entrée 1": "Miso Honey Glazed Cod",
+      "Entrée 2": "Pepper Steak",
+      "Vegan Entrée": "Vegan Kung Pao Tofu",
+      "Vegetable": "Steamed Broccoli",
+      "Side": "Steamed Jasmine Rice",
+      "Action Station": "Pizza Omelet Bar",
+      "Dessert": {
+        "Specialty Dessert": "Chef's Choice Orange Cream Cake"
+      }
     }
   },
   "Monday": {
     "Breakfast": {
-      "Entrée": "Spinach, Sausage and Mushroom Scramble",
-      "Side 1": "Crispy Breakfast Potatoes",
-      "Side 2": "Egg, Potato, Bacon, and Cheese Empanadas",
+      "Entrée": "Country Scramble with Cheese",
+      "Side 1": "Tater Tots",
+      "Side 2": "Breakfast Quesadillas with Eggs and Cheese",
       "Protein": "Breakfast Sausage Links"
     },
     "Lunch": {
-      "Entrée": "Beef Ravioli with Spicy Marinara",
-      "Vegan Entrée": "Vegan Roasted Tomato Spaghetti with Spinach and Chickpeas",
-      "Side": "Parmesan Potatoes",
-      "Vegetable": "Roasted Bulldog Blend with Balsamic Drizzle",
+      "Entrée": "Shredded Beef Barbacoa with Flour Tortilla",
+      "Vegan Entrée": "Vegan Tofu Scramble with Spinach",
+      "Vegetable": "Tex-Mex Corn",
+      "Side": "Refried Beans",
       "Feature Station": "Build-Your-Own Burger",
-      "Soup Station": {
-        "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Italian Minestrone"
-      }
-    },
-    "Dinner": {
-      "Entrée 1": "Chicken Tinga Tacos with Flour Tortillas",
-      "Entrée 2": "Wet Burrito Casserole with Shredded Beef",
-      "Vegan Entrée": "Vegan Hearty Charro Beans with Beyond Beef Crumble",
-      "Side": "Spanish Rice",
-      "Vegetable": "Sautéed Mixed Vegetables",
-      "Action Station": "Omelet Bar"
-    },
-    "Dessert": {
-      "Specialty Dessert": "New York Cheesecake"
-    }
-  },
-  "Tuesday": {
-    "Breakfast": {
-      "Entrée": "Denver Scramble",
-      "Side 1": "Country Diced Breakfast Potatoes",
-      "Side 2": "French Toast Sticks",
-      "Protein": "Sliced Italian Sausage"
-    },
-    "Lunch": {
-      "Entrée": "Mushroom Chicken Stir-Fry",
-      "Vegan Entrée": "Vegan Teriyaki Tofu with Pineapple",
-      "Side": "Scallion Fried Rice",
-      "Vegetable": "Steamed Seasonal Vegetables",
-      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
         "Soup Option 2": "Chicken Noodle Soup"
       }
     },
     "Dinner": {
-      "Entrée 1": "Curry Chicken Masala",
-      "Entrée 2": "Beef Shawarma with Naan",
-      "Vegan Entrée": "Vegan Curry Stew",
-      "Side": "Linguine with Lemon Cream Sauce",
-      "Vegetable": "Oven Roasted Mediterranean Vegetables",
-      "Action Station": "Pasta Bar"
+      "Entrée 1": "Garlic Herb Tilapia",
+      "Entrée 2": "Chicken Cordon Bleu with Garlic Cream Sauce",
+      "Vegan Entrée": "Vegan Butternut Squash Goulash",
+      "Vegetable": "Steamed Cauliflower",
+      "Side": "Wild Rice Pilaf",
+      "Action Station": "Pasta Bar",
+      "Dessert": {
+        "Specialty Dessert": "Brownies"
+      }
+    }
+  },
+  "Tuesday": {
+    "Breakfast": {
+      "Entrée": "Spinach and Mushroom Scramble with Mozzarella Cheese",
+      "Side 1": "Potato Triangles",
+      "Side 2": "Belgian Waffles",
+      "Protein": "Sliced Italian Sausage"
     },
-    "Dessert": {
-      "Specialty Dessert": "Red Velvet Cake"
+    "Lunch": {
+      "Entrée": "Chicken Marsala with Mushrooms",
+      "Vegan Entrée": "Vegan Penne Pasta with Sundried Tomatoes",
+      "Vegetable": "Sautéed Green Beans with Red Bell Peppers",
+      "Side": "Roasted Garlic Mashed Potatoes",
+      "Feature Station": "Wing Wednesday",
+      "Soup Station": {
+        "Soup Option 1": "Hearty Vegetarian Chili",
+        "Soup Option 2": "Italian Wedding Soup"
+      }
+    },
+    "Dinner": {
+      "Entrée 1": "BBQ Rubbed Chicken Thighs",
+      "Entrée 2": "Kansas City Style Smoked Ribs",
+      "Vegan Entrée": "Vegan Grilled Portobello Mushroom with Garlic Butter",
+      "Vegetable": "Corn on the Cob",
+      "Side": "Rice Pilaf",
+      "Action Station": "Sizzling Salad Bar",
+      "Dessert": {
+        "Specialty Dessert": "Cinnamon Churros"
+      }
     }
   },
   "Wednesday": {
     "Breakfast": {
-      "Entrée": "Southwestern Strata with Bacon and Potatoes",
-      "Side 1": "Tater Tots",
-      "Side 2": "Blueberry Pancakes",
-      "Protein": "Sausage Patty"
+      "Entrée": "Garden Scramble with Cheese",
+      "Side 1": "Country Diced Breakfast Potatoes",
+      "Side 2": "Pancake and Sausage on a Stick",
+      "Protein": "Sliced Polish Sausage"
     },
     "Lunch": {
-      "Entrée": "Spicy Chicken Sandwich",
-      "Vegan Entrée": "Vegan BBQ Glazed Portobello Mushroom Steak",
-      "Side": "Garlic Fries",
-      "Vegetable": "Oven Roasted Maple Carrots",
-      "Feature Station": "Taco Bar",
+      "Entrée": "Santa Maria Tri-Tip",
+      "Vegan Entrée": "Vegan Beef Strips",
+      "Vegetable": "Mixed Vegetables",
+      "Side": "Vegetable Chow Mein",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Broccoli and Cheese Soup"
+        "Soup Option 2": "Chicken Enchilada Soup"
       }
     },
     "Dinner": {
-      "Entrée 1": "Crispy Orange Chicken",
-      "Entrée 2": "Beef and Broccoli",
-      "Vegan Entrée": "Vegan Salt and Pepper Tofu",
-      "Side": "Steamed Jasmine Rice",
-      "Vegetable": "Sautéed Garlic Green Greens",
-      "Action Station": "Sizzling Salad Bar"
-    },
-    "Dessert": {
-      "Specialty Dessert": "Apple Pie"
+      "Entrée 1": "Pork Carnitas Enchilada Casserole",
+      "Entrée 2": "Beef Fajitas with Flour Tortillas",
+      "Vegan Entrée": "Vegan Beef Fajitas",
+      "Vegetable": "Buttered Corn on the Cob",
+      "Side": "Mexican Rice",
+      "Action Station": "Ice Cream Sundae Bar",
+      "Dessert": {
+        "Specialty Dessert": "German Chocolate Cake"
+      }
     }
   },
   "Thursday": {
     "Breakfast": {
-      "Entrée": "Garden Scramble",
-      "Side 1": "Potato Triangles",
-      "Side 2": "Sweet Cream Pancakes",
-      "Protein": "Polish Sausage"
+      "Entrée": "Cowboy Scramble",
+      "Side 1": "Hash Browns",
+      "Side 2": "French Toast",
+      "Protein": "Breakfast Sausage Links"
     },
     "Lunch": {
-      "Entrée": "Pork Chile Verde with Flour Tortillas",
-      "Vegan Entrée": "Vegan Panko Stuffed Tomatoes",
-      "Side": "Garlic White Rice with Corn",
-      "Vegetable": "Sautéed Zucchini with Onions",
+      "Entrée": "Spicy Korean Chicken",
+      "Vegan Entrée": "Vegan Tofu Katsu",
+      "Vegetable": "Stir-Fry Vegetables",
+      "Side": "Garlic Bread",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Tomato Florentine Soup"
+        "Soup Option 2": "French Onion Soup"
       }
     },
     "Dinner": {
-      "Entrée 1": "Santa Maria Tri-Tip",
-      "Entrée 2": "Brown Sugar Glazed Chicken",
-      "Vegan Entrée": "Vegan Hearty Beyond Beef Chili Beans",
-      "Side": "Rice Pilaf with Orzo",
-      "Vegetable": "Corn on the Cob",
-      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
-    },
-    "Dessert": {
-      "Specialty Dessert": "Peach Cobbler"
+      "Entrée 1": "Swedish Beef Meatballs",
+      "Entrée 2": "Chicken Schnitzel with Lemon Butter",
+      "Vegan Entrée": "Vegan Meatballs with Spinach Pesto",
+      "Vegetable": "Sautéed Cabbage with Bacon",
+      "Side": "Garlic Herb Roasted Potatoes",
+      "Action Station": "Stir-Fry Bar",
+      "Dessert": {
+        "Specialty Dessert": "Tiramisu"
+      }
     }
   },
   "Friday": {
     "Breakfast": {
-      "Entrée": "Broccoli and Cheese Scramble",
-      "Side 1": "Hash Browns",
-      "Side 2": "French Toast Sausage Tornado",
-      "Protein": "Sliced Linguica"
+      "Entrée": "Denver Scramble with Cheese",
+      "Side 1": "Potato Circles",
+      "Side 2": "Buttermilk Pancakes",
+      "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
-      "Entrée": "Honey Stung Fried Chicken",
-      "Vegan Entrée": "Vegan Crispy Buffalo Cauliflower Bites",
-      "Side": "Red Skin Mashed Potatoes",
-      "Vegetable": "Braised Cabbage with Brown Sugar",
+      "Entrée": "Shrimp Scampi Linguine",
+      "Vegan Entrée": "Vegan Sweet Potato Chili",
+      "Vegetable": "Oven Roasted Asparagus",
+      "Side": "Fettucine Alfredo",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
-        "Soup Option 2": "Boston Clam Chowder"
+        "Soup Option 2": "Clam Chowder"
       }
     },
     "Dinner": {
-      "Entrée 1": "Grilled Salmon with Basil Pesto",
-      "Entrée 2": "Herb and Parmesan Crusted Pork Loin",
-      "Vegan Entrée": "Vegan Kale and Beyond Sausage Pasta",
-      "Side": "Creamy Pesto Spaghetti with Charred Tomatoes",
-      "Vegetable": "Italian Roasted Vegetables"
-    },
-    "Dessert": {
-      "Specialty Dessert": "Creamy Pesto Spaghetti with Charred Tomatoes"
+      "Entrée 1": "Grilled Honey Mustard Chicken",
+      "Entrée 2": "Chili Lime Tilapia",
+      "Vegan Entrée": "Vegan Tofu Cacciatore",
+      "Vegetable": "Oven Roasted Cauliflower",
+      "Side": "Chardonnay Artichoke Pasta with Lemon Butter Sauce",
+      "Action Station": "Ice Cream Sundae Bar",
+      "Dessert": {
+        "Specialty Dessert": "Chef's Choice"
+      }
     }
   },
   "Saturday": {
     "Breakfast": {
-      "Entrée": "Chorizo and Eggs",
-      "Side 1": "Diced Potatoes with Green Chilies",
-      "Side 2": "Homemade Breakfast Burritos with Eggs, Potatoes, Bacon, and Cheese",
-      "Protein": "Thick Cut Bacon"
+      "Entrée": "Cheesy Scrambled Eggs with Fresh Chives",
+      "Side 1": "Hash Brown Patties",
+      "Side 2": "Sausage, Egg and Cheese English Muffins",
+      "Protein": "Sausage Patties"
     },
     "Lunch": {
-      "Entrée": "Chicken, Asparagus, and Sweet Pea Pasta",
-      "Vegan Entrée": "Vegan Eggplant Roulade with Soy Mozzarella",
-      "Side": "Mozzarella Cheese Bread",
-      "Vegetable": "Crispy Broccolini",
+      "Entrée": "Pesto Grilled Chicken Breast with Balsamic Drizzle",
+      "Vegan Entrée": "Vegan Pasta Primavera",
+      "Vegetable": "Breaded Zucchini Sticks",
+      "Side": "Cheesy Scalloped Potatoes",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Soup Option 1": "Hearty Vegetarian Chili",
@@ -195,14 +198,15 @@
       }
     },
     "Dinner": {
-      "Entrée 1": "Garlic Butter Shrimp",
-      "Entrée 2": "Chipotle Pesto Steak Bites",
-      "Vegan Entrée": "Vegan Eggplant Parmesan Lasagna with Soy Cheese",
-      "Side": "Linguine with Lemon Cream Sauce",
-      "Vegetable": "Roasted Asparagus"
-    },
-    "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+      "Entrée 1": "Seared Lemon Pepper Chicken with Pan Sauce",
+      "Entrée 2": "A1 Steak Bites",
+      "Vegan Entrée": "Vegan Panko Stuffed Portobello Mushroom",
+      "Vegetable": "Oven Roasted Broccoli",
+      "Side": "Chardonnay Artichoke Pasta with Lemon Butter Sauce",
+      "Action Station": "Sizzling Salad Bar",
+      "Dessert": {
+        "Specialty Dessert": "Chef's Choice"
+      }
     }
   }
 }
