@@ -27,6 +27,7 @@ async function fetchAndExtractText() {
     text = text.replace(statement4, ""); // Remove the target text
     text = text.replace(statement5, ""); // Remove the target text
     text = text.replace(/([a-zA-Z])(\d)/g, "$1 $2"); // Add space between letters and numbers
+    text = text.replace(/([a-z])([A-Z])/g, "$1 | $2"); // Add space between letters and capital letters
     text = text.replace(/\s+/g, " "); // Replace multiple spaces with a space
     text = text.replace(/(\d{4})(\d{1,2})/g, "$1 | $2"); // Add space after the fourth digit for 5 or 6-digit numbers
     text = text.replace(/(\w)([A-Z])/g, "$1 | $2"); // Add space between words and capital letters
