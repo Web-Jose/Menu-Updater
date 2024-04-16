@@ -1,37 +1,95 @@
 {
   "Sunday": {
-    "Dessert": {
-      "Specialty Dessert": "Chef's Choice - Tapioca Pudding"
+    "Dinner": {
+      "Entrée 1": "Miso Honey Cod",
+      "Entrée 2": "Pepper Steak",
+      "Vegan Entrée": "Vegan Kung Pao Tofu",
+      "Side": "Steamed Broccoli",
+      "Vegetable": "Steamed Jasmine Rice",
+      "Soup Station": {
+        "Option 1": "Hearty Vegetarian Chili",
+        "Option 2": "Chef's Choice"
+      },
+      "Action Station": "Pizza Omelet Bar",
+      "Dessert": {
+        "Specialty Dessert": "Tapioca Pudding"
+      }
     }
   },
   "Monday": {
-    "Dessert": {
-      "Specialty Dessert": "Brownies"
+    "Dinner": {
+      "Entrée 1": "Garlic Butter Oven Baked Tilapia",
+      "Entrée 2": "Chicken Cordon Bleu with Garlic Cream Sauce",
+      "Vegan Entrée": "Vegan Butternut Squash Goulash",
+      "Side": "Oven Roasted Asparagus",
+      "Vegetable": "Wild Rice Pilaf",
+      "Action Station": "Pasta Bar",
+      "Dessert": {
+        "Specialty Dessert": "Brownies"
+      }
     }
   },
   "Tuesday": {
-    "Dessert": {
-      "Specialty Dessert": "German Chocolate Cake"
+    "Dinner": {
+      "Entrée 1": "BBQ Rubbed Chicken Thighs",
+      "Entrée 2": "Kansas City Style Smoked Ribs",
+      "Vegan Entrée": "Vegan Grilled Portobello Mushroom with Garlic Butter",
+      "Side": "Corn on the Cob",
+      "Vegetable": "Au Gratin Potatoes",
+      "Action Station": "Ice Cream Sundae Bar",
+      "Dessert": {
+        "Specialty Dessert": "German Chocolate Cake"
+      }
     }
   },
   "Wednesday": {
-    "Dessert": {
-      "Specialty Dessert": "Churro Donuts"
+    "Dinner": {
+      "Entrée 1": "Resident Apprecition Day",
+      "Entrée 2": "Seared Lemon Pepper Chicken with Pan Sauce",
+      "Vegan Entrée": "Vegan Meatballs with Spinach Pesto",
+      "Side": "Sautéed Cabbage with Bacon",
+      "Vegetable": "Garlic Herb Roasted Potatoes",
+      "Action Station": "Stir-Fry Bar",
+      "Dessert": {
+        "Specialty Dessert": "Churro Donuts"
+      }
     }
   },
   "Thursday": {
-    "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+    "Dinner": {
+      "Entrée 1": "Swedish Beef Meatballs",
+      "Entrée 2": "Chicken Tamales",
+      "Vegan Entrée": "Vegan Chile Relleno with Soy Cheese and Ranchero Sauce",
+      "Side": "Charred Squash Medley",
+      "Vegetable": "Garlic Pinto Beans",
+      "Dessert": {
+        "Specialty Dessert": "Chef's Choice"
+      }
     }
   },
   "Friday": {
-    "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+    "Dinner": {
+      "Entrée 1": "Chicken Schnitzel with Lemon Butter",
+      "Entrée 2": "Pork Carnitas with Flour Tortillas",
+      "Vegan Entrée": "Vegan Tofu Cacciatore",
+      "Side": "Oven Roasted Cauliflower",
+      "Vegetable": "Chardonnay Artichoke Pasta with Lemon Butter Sauce",
+      "Dessert": {
+        "Specialty Dessert": "Chef's Choice"
+      }
     }
   },
   "Saturday": {
-    "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+    "Lunch": {
+      "Entrée": "Pesto Grilled Chicken Breast with Balsamic Drizzle",
+      "Vegan Entrée": "Vegan Pasta Primavera",
+      "Side": "Tex-Mex Corn",
+      "Vegetable": "Refried Beans",
+      "Feature Station": "Pizza",
+      "Soup Station": {
+        "Option 1": "Hearty Vegetarian Chili",
+        "Option 2": "Clam Chowder"
+      }
     }
   }
 }
