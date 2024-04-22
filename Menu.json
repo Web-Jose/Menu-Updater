@@ -9,6 +9,7 @@
       "Entrée": "Mongolian Beef",
       "Vegan Entrée": "Vegan Tofu and Broccoli",
       "Vegetable": "Stir-Fry Vegetables",
+      "Side": "Vegetable Fried Rice",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
@@ -37,10 +38,11 @@
       "Entrée": "Beef Lasagna",
       "Vegan Entrée": "Vegan Spinach and Pesto Gnocchi",
       "Vegetable": "Sautéed Green Beans",
+      "Side": "Cheesy Breadstick",
       "Feature Station": "Grilled Cheese Sandwich and Tomato Basil Soup",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chef's Choice"
+        "Option 2": "Chicken Tortilla"
       }
     },
     "Dinner": {
@@ -65,10 +67,11 @@
       "Entrée": "Seared Tuscan Chicken with Garlic Cream Sauce",
       "Vegan Entrée": "Vegan Meatless Lover Pasta with Beyond Sausage",
       "Vegetable": "Sautéed Vegetable Medley",
+      "Side": "Red Skinned Mashed Potatoes with Spinach",
       "Feature Station": "Wing Wednesday",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chicken Tortilla"
+        "Option 2": "Chicken Noodle"
       }
     },
     "Dinner": {
@@ -80,7 +83,7 @@
       "Action Station": "Pasta Bar"
     },
     "Dessert": {
-      "Specialty Dessert": "Strawberry Short Cake"
+      "Specialty Dessert": "Strawberry Shortcake"
     }
   },
   "Wednesday": {
@@ -93,6 +96,7 @@
       "Entrée": "Pulled Pork Sandwich",
       "Vegan Entrée": "Vegan BBQ Meatballs",
       "Vegetable": "Oven Roasted Cauliflower",
+      "Side": "Sweet Potato Waffle Fries",
       "Feature Station": "Build-Your-Own Burger",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
@@ -103,7 +107,7 @@
       "Entrée 1": "Crispy Kung Pao Chicken",
       "Entrée 2": "Teriyaki Beef with Pineapple",
       "Vegan Entrée": "Vegan Ginger Gardein Chick'n",
-      "Vegetable": "Steamed Broccoli",
+      "Vegetable": "Fire Roasted Seasonal Vegetables",
       "Side": "Jasmine Steamed Rice",
       "Action Station": "Sizzling Salad Bar"
     },
@@ -121,6 +125,7 @@
       "Entrée": "Beef & Pork Cannelloni with a Red Sauce",
       "Vegan Entrée": "Vegan Jambalaya with Beyond Sausage",
       "Vegetable": "Charred Brussel Sprouts",
+      "Side": "Garlic Bread",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
@@ -131,7 +136,7 @@
       "Entrée 1": "Pollo Asado",
       "Entrée 2": "Beef Rancheros with Flour Tortillas",
       "Vegan Entrée": "Vegan Black Bean and Corn Enchiladas with Soy Cheese",
-      "Vegetable": "Fire Roasted Seasonal Vegetables",
+      "Vegetable": "Steamed Broccoli",
       "Side": "Cilantro Lime Rice",
       "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
     },
@@ -149,6 +154,7 @@
       "Entrée": "Red Wine Roasted Pork Tenderloin",
       "Vegan Entrée": "Vegan Tofu Piccata with Capers",
       "Vegetable": "Oven Roasted Asparagus",
+      "Side": "Cheesy Scalloped Potatoes",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
@@ -160,7 +166,7 @@
       "Entrée 2": "BBQ Rib Tips",
       "Vegan Entrée": "Vegan Beyond Beef Sloppy Joes",
       "Vegetable": "Steamed Bulldog Vegetable Blend",
-      "Side": "Cheesy Scalloped Potatoes",
+      "Side": "Spaghetti with Basil Marinara Sauce",
       "Action Station": "Pizza"
     },
     "Dessert": {
@@ -177,6 +183,7 @@
       "Entrée": "Chicken Fajitas with Flour Tortillas",
       "Vegan Entrée": "Vegan Beyond Beef Ragu Rotini",
       "Vegetable": "Sautéed Squash Medley",
+      "Side": "Rice Pilaf with Angel Hair",
       "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
@@ -189,7 +196,7 @@
       "Vegan Entrée": "Vegan Beyond Beef Ragu Rotini",
       "Vegetable": "Sautéed Green Beans with Tomatoes and Garlic",
       "Side": "Spaghetti with Basil Marinara Sauce",
-      "Action Station": "Chef's Choice"
+      "Action Station": "Pizza"
     },
     "Dessert": {
       "Specialty Dessert": "Chocolate Cake"
