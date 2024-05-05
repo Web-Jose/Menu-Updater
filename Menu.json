@@ -11,6 +11,7 @@
       "Vegan Entrée": "Vegan Spaghetti with Beyond Beef Meatballs in Basil Marinara Sauce",
       "Vegetable": "Sautéed Green Beans with Onions and Garlic",
       "Side": "Oven Roasted Baby Potatoes",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Chef's Choice"
@@ -40,7 +41,7 @@
       "Vegan Entrée": "Vegan Sweet and Sour Tofu",
       "Vegetable": "Steamed Mixed Seasonal Vegetables",
       "Side": "Egg and Scallion Fried Rice",
-      "Feature Station": "Pizza",
+      "Feature Station": "Build Your Own Burger",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Minestrone Soup"
@@ -70,7 +71,7 @@
       "Vegan Entrée": "Vegan Philly Steak with Soy Cheese",
       "Vegetable": "Charred Mixed Vegetables with Balsamic Drizzle",
       "Side": "Sweet Potato Fries",
-      "Feature Station": "Build Your Own Burger",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Tomato Basil Soup"
@@ -100,6 +101,7 @@
       "Vegan Entrée": "Vegan Mushroom Bourguignon",
       "Vegetable": "Charred Broccoli",
       "Side": "Red Skinned Mashed Potatoes",
+      "Feature Station": "Shrimp Ceviche",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Broccoli and Cheese Soup"
@@ -139,9 +141,9 @@
       "Entrée 1": "Grilled Chicken Bruschetta",
       "Entrée 2": "Parmesan Crusted Pork Loin",
       "Vegan Entrée": "Eggplant Cutlet",
-      "Vegetable": "Sautéed Fresh Green Beans",
+      "Vegetable": "Oven Roasted Bulldog Blend",
       "Side": "Wild Garden Rice",
-      "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
+      "Action Station": "Ice Cream Sundae Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Carrot Cake"
@@ -155,13 +157,13 @@
       "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
-      "Entrée": "Street Tacos-Asada and Chicken",
+      "Entrée": "Street Tacos- Asada and Chicken",
       "Vegan Entrée": "Beyond Meat Tacos",
       "Vegetable": "Corn on the Cob",
       "Side": "Mexican Rice",
       "Feature Station": "Shrimp Ceviche",
       "Soup Station": {
-        "Option 1": "Menudo",
+        "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Boston Clam Chowder"
       }
     },
@@ -169,8 +171,9 @@
       "Entrée 1": "Herb Roasted Chicken Quarters",
       "Entrée 2": "Grilled Cod with Spinach and Tomatoes",
       "Vegan Entrée": "Vegan Mushroom and Vegetable Burgundy",
-      "Vegetable": "Oven Roasted Bulldog Blend",
-      "Side": "Roasted Garlic Herb Potatoes"
+      "Vegetable": "Jasmin Rice",
+      "Side": "Roasted Garlic Herb Potatoes",
+      "Action Station": "Stir-Fry Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Churro Donuts"
@@ -188,6 +191,7 @@
       "Vegan Entrée": "Vegan Grilled Mediterranean Eggplant",
       "Vegetable": "Oven Roasted Cauliflower",
       "Side": "Rice Pilaf with Angel Hair",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Chef's Choice"
@@ -195,10 +199,11 @@
     },
     "Dinner": {
       "Entrée 1": "Teriyaki Salmon",
-      "Entrée 2": "Broccoli Beef",
+      "Entrée 2": "Grilled Cod with Spinach and Tomatoes",
       "Vegan Entrée": "Vegan Chicken Stir Fry",
       "Vegetable": "Jasmin Rice",
-      "Side": "Bahama Stir Fry Blend"
+      "Side": "Bahama Stir Fry Blend",
+      "Action Station": "Ice Cream Sundae Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
