@@ -2,34 +2,31 @@
   "Sunday": {
     "Breakfast": {
       "Entrée": "Denver Scramble",
-      "Side 1": "Potato Triangles",
-      "Side 2": "Sausage and Egg Biscuit",
+      "Side": "Potato Triangles",
       "Protein": "Sausage Patties"
     },
     "Lunch": {
       "Entrée": "Sweet and Sour Chicken",
       "Vegan Entrée": "Vegan Crispy Salt and Pepper Tofu",
       "Vegetable": "Steamed Mixed Vegetables",
-      "Side": "Brown Fried Rice",
-      "Soup Station": {
-        "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chef's Choice"
-      }
+      "Side": "Brown Fried Rice"
     },
     "Dinner": {
       "Entrée 1": "Ground Beef Enchilada Casserole",
       "Entrée 2": "Chicken Fajitas with Flour Tortillas",
       "Vegan Entrée": "Vegan Chicken Fajitas",
       "Vegetable": "Oven Roasted Corn",
-      "Side": "Refried Beans",
-      "Action Station": "Pizza"
+      "Side": "Refried Beans"
+    },
+    "Dessert": {
+      "Specialty Dessert": "Funnel Fries"
     }
   },
   "Monday": {
     "Breakfast": {
       "Entrée": "Fiesta Scrambled Eggs",
       "Side 1": "Potato Circles",
-      "Side 2": "French Toast Sticks",
+      "Side 2": "Sausage and Egg Biscuit",
       "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
@@ -37,10 +34,10 @@
       "Vegan Entrée": "Vegan Tofu Katsu",
       "Vegetable": "Stir-Fry Vegetables",
       "Side": "Jasmine Steamed Rice",
-      "Feature Station": "Pizza",
+      "Feature Station": "Wing Wednesday",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Italian Wedding"
+        "Option 2": "Chef's Choice"
       }
     },
     "Dinner": {
@@ -52,14 +49,14 @@
       "Action Station": "Omelet Bar"
     },
     "Dessert": {
-      "Specialty Dessert": "Funnel Fries"
+      "Specialty Dessert": "Triple Berry Crumble"
     }
   },
   "Tuesday": {
     "Breakfast": {
       "Entrée": "Ham and Cheese Scramble",
       "Side 1": "Dice Country Potatoes",
-      "Side 2": "Sweet Cream Pancakes",
+      "Side 2": "French Toast Sticks",
       "Protein": "Sliced Italian Sausage"
     },
     "Lunch": {
@@ -67,9 +64,10 @@
       "Vegan Entrée": "Beyond Crumble Meat Tacos",
       "Vegetable": "Roasted Corn and Black Beans",
       "Side": "Cilantro Lime Rice",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Tomato Bisque"
+        "Option 2": "Italian Wedding"
       }
     },
     "Dinner": {
@@ -81,14 +79,13 @@
       "Action Station": "Pasta Bar"
     },
     "Dessert": {
-      "Specialty Dessert": "Triple Berry Crumble"
+      "Specialty Dessert": "Tapioca Pudding Cups"
     }
   },
   "Wednesday": {
     "Breakfast": {
       "Entrée": "Chorizo and Eggs",
-      "Side 1": "Crispy Breakfast Potatoes",
-      "Side 2": "Cheese Quesadilla",
+      "Side": "Crispy Breakfast Potatoes",
       "Protein": "Breakfast Sausage Links"
     },
     "Lunch": {
@@ -96,7 +93,7 @@
       "Vegan Entrée": "Vegan Spaghetti with Beyond Beef Meatballs in Basil Marinara Sauce",
       "Vegetable": "Sauteed Zucchini",
       "Side": "Pesto Alfredo Pasta",
-      "Feature Station": "Wing Wednesday",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Chicken Tortilla"
@@ -111,22 +108,21 @@
       "Action Station": "Sizzling Salad Bar"
     },
     "Dessert": {
-      "Specialty Dessert": "Tapioca Pudding Cups"
+      "Specialty Dessert": "Apple Pie"
     }
   },
   "Thursday": {
     "Breakfast": {
       "Entrée": "Cowboy Scramble with Sausage",
-      "Side 1": "Tater Tots",
-      "Side 2": "Biscuits and Gravy",
-      "Protein": "Refried Beans wirh Cheese"
+      "Side": "Tater Tots",
+      "Protein": "Refried Beans with Cheese"
     },
     "Lunch": {
       "Entrée": "Spicy Chicken Sandwich",
       "Vegan Entrée": "Vegan BBQ Glazed Portobello Mushroom Steak",
       "Vegetable": "Oven Roasted Maple Carrots",
       "Side": "Curly Fries",
-      "Feature Station": "Pizza",
+      "Feature Station": "Build-Your-Own Burger",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Chicken Noodle"
@@ -141,14 +137,13 @@
       "Action Station": "Ice Cream Sundae Bar and Stir-Fry Bar"
     },
     "Dessert": {
-      "Specialty Dessert": "Apple Pie"
+      "Specialty Dessert": "Chef's Choice"
     }
   },
   "Friday": {
     "Breakfast": {
       "Entrée": "Greek Scrambled Eggs",
-      "Side 1": "Potato Triangle",
-      "Side 2": "Egg, Bacon, and Cheese Croissant Sandwich",
+      "Side": "Potato Triangle",
       "Protein": "Thick Cut Bacon"
     },
     "Lunch": {
@@ -156,7 +151,7 @@
       "Vegan Entrée": "Vegan Soyrizo and Bean Tostadas",
       "Vegetable": "Charred Squash Medley",
       "Side": "Mexican Rice",
-      "Feature Station": "Build-Your-Own Burger",
+      "Feature Station": "Pizza",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
         "Option 2": "Boston Clam Chowder"
@@ -167,7 +162,8 @@
       "Entrée 2": "Blackened Shrimp",
       "Vegan Entrée": "Vegan Roasted Butternut Squash and Chickpeas",
       "Vegetable": "Squash Medley with Red Bell Peppers",
-      "Side": "Jollof Rice"
+      "Side": "Jollof Rice",
+      "Action Station": "Pizza"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
@@ -176,8 +172,7 @@
   "Saturday": {
     "Breakfast": {
       "Entrée": "Cheesy Scramble with Chives",
-      "Side 1": "Hash Browns",
-      "Side 2": "Cheese Quesadilla",
+      "Side": "Hash Browns",
       "Protein": "Sliced Linguiça"
     },
     "Lunch": {
@@ -188,15 +183,16 @@
       "Feature Station": "Soup Station",
       "Soup Station": {
         "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chef's Choice"
+        "Option 2": "Hearty Vegetarian Chili"
       }
     },
     "Dinner": {
       "Entrée 1": "Country Fried Chicken",
-      "Entrée 2": "Kansa City Style BBQ Pork Ribs",
+      "Entrée 2": "Chicken Caprese with Balsamic Drizzle",
       "Vegan Entrée": "Vegan Beyond Beef Stroganoff",
       "Vegetable": "Buttered Corn",
-      "Side": "Loaded Mashed Potatoes"
+      "Side": "Loaded Mashed Potatoes",
+      "Action Station": "Pasta Bar"
     },
     "Dessert": {
       "Specialty Dessert": "Chef's Choice"
