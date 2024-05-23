@@ -1,138 +1,69 @@
 {
   "Sunday": {
     "Breakfast": {
-      "Entrée": "Spinach and Mushroom Scramble with Mozzarella Cheese",
-      "Side": "Potato Triangles",
-      "Protein": "Sliced Italian Sausage"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Crispy Teriyaki Chicken",
-      "Vegan Entrée": "Vegan Teriyaki Chicken and Green Bean Stir-Fry",
-      "Vegetable": "Sautéed Mixed Seasonal Vegetables",
-      "Side": "Bacon Fried Rice",
-      "Feature Station": "Pizza",
-      "Soup Station": {
-        "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chef's Choice"
-      }
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Chicken Cacciatore",
-      "Entrée 2": "Pepper Steak",
-      "Vegan Entrée": "Vegan Kung Pao Tofu",
-      "Vegetable": "Steamed Broccoli",
-      "Side": "Steamed Brown Rice",
-      "Action Station": "Pizza"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+      "Specialty Dessert": "Closed"
     }
   },
   "Monday": {
     "Breakfast": {
-      "Entrée": "Scrambled Eggs with Pico de Gallo and Black Beans",
-      "Side": "Chorizo and Potatoes with Flour Tortillas",
-      "Protein": "Breakfast Sausage Links"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Chicken Marsala with Mushrooms",
-      "Vegan Entrée": "Vegan Penne Pasta with Sundried Tomatoes",
-      "Vegetable": "Sautéed Green Beans with Red Bell Peppers",
-      "Side": "Roasted Garlic Mashed Potatoes",
-      "Feature Station": "Build-Your-Own Burger",
-      "Soup Station": {
-        "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chicken Noodle Soup"
-      }
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Grilled Honey Mustard Chicken",
-      "Entrée 2": "Kung Pao Shrimp",
-      "Vegan Entrée": "Stuffed Portobello Mushroom with Panko",
-      "Vegetable": "Roasted Broccoli",
-      "Side": "Cheesy Scalloped Potatoes",
-      "Action Station": "Omelet Bar"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+      "Specialty Dessert": "Closed"
     }
   },
   "Tuesday": {
     "Breakfast": {
-      "Entrée": "Country Scramble with Cheese",
-      "Side": "Tater Tots",
-      "Protein": "Sliced Bacon"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Pork Chile Verde with Flour Tortillas",
-      "Vegan Entrée": "Vegan Panko Stuffed Tomatoes",
-      "Vegetable": "Sautéed Zucchini with Onions",
-      "Side": "Garlic White Rice with Corn",
-      "Feature Station": "Soup Station",
-      "Soup Station": {
-        "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Tomato Bisque Soup"
-      }
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Orange Chicken",
-      "Entrée 2": "A 1 Steak Bites",
-      "Vegan Entrée": "Vegan Chicken Stir Fry",
-      "Vegetable": "Charred Broccoli",
-      "Side": "Jasmin Steamed Rice"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+      "Specialty Dessert": "Closed"
     }
   },
   "Wednesday": {
     "Breakfast": {
-      "Entrée": "Denver Scramble with Cheese",
-      "Side": "Country Diced Breakfast Potatoes",
-      "Protein": "Sliced Polish Sausage"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Nashville Hot Chicken Sandwich",
-      "Vegan Entrée": "Vegan Beef Strips",
-      "Vegetable": "Mixed Vegetables",
-      "Side": "Waffle Sweet Potato Fries",
-      "Feature Station": "Pizza",
-      "Soup Station": {
-        "Option 1": "Hearty Vegetarian Chili",
-        "Option 2": "Chicken Enchilada Soup"
-      }
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Pepper Steak",
-      "Entrée 2": "Kung Pao Shrimp",
-      "Vegan Entrée": "Chef's Choice",
-      "Vegetable": "Chef's Choice",
-      "Side": "Chef's Choice"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
-      "Specialty Dessert": "Chef's Choice"
+      "Specialty Dessert": "Closed"
     }
   },
   "Thursday": {
     "Breakfast": {
-      "Entrée": "Chef's Choice",
-      "Side": "French Toast Sticks",
-      "Protein": "Chef's Choice"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Vegan Entrée",
-      "Vegan Entrée": "Chef's Choice",
-      "Vegetable": "Chef's Choice",
-      "Side": "Chef's Choice",
-      "Feature Station": "Closed",
-      "Soup Station": "Closed"
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Closed",
-      "Entrée 2": "Closed",
-      "Vegan Entrée": "Closed",
-      "Vegetable": "Closed",
-      "Side": "Closed"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
       "Specialty Dessert": "Closed"
@@ -140,24 +71,13 @@
   },
   "Friday": {
     "Breakfast": {
-      "Entrée": "Breakfast Quesadillas with Eggs and Cheese",
-      "Side": "Sweet Cream Pancake",
-      "Protein": "Breakfast Sausage Links"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Closed",
-      "Vegan Entrée": "Closed",
-      "Vegetable": "Closed",
-      "Side": "Closed",
-      "Feature Station": "Closed",
-      "Soup Station": "Closed"
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Closed",
-      "Entrée 2": "Closed",
-      "Vegan Entrée": "Closed",
-      "Vegetable": "Closed",
-      "Side": "Closed"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
       "Specialty Dessert": "Closed"
@@ -165,24 +85,13 @@
   },
   "Saturday": {
     "Breakfast": {
-      "Entrée": "Sweet Cream Pancake",
-      "Side": "French Toast",
-      "Protein": "Sliced Bacon"
+      "Entrée": "Closed"
     },
     "Lunch": {
-      "Entrée": "Closed",
-      "Vegan Entrée": "Closed",
-      "Vegetable": "Closed",
-      "Side": "Closed",
-      "Feature Station": "Closed",
-      "Soup Station": "Closed"
+      "Entrée": "Closed"
     },
     "Dinner": {
-      "Entrée 1": "Closed",
-      "Entrée 2": "Closed",
-      "Vegan Entrée": "Closed",
-      "Vegetable": "Closed",
-      "Side": "Closed"
+      "Entrée 1": "Closed"
     },
     "Dessert": {
       "Specialty Dessert": "Closed"
